@@ -1614,7 +1614,7 @@ window.vs = {
       "price": 9000
     },
     {
-      "id": "wind",
+      "id": "windch",
       "name": "Wind",
       "emoji": ":question:",
       "description": "-",
@@ -1957,7 +1957,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Doesn't appreciate getting blasphemously mockered.",
       "itemIds": [
-        "candybox"
+        "axe_"
       ],
       "special": true,
       "dlc5": true,
@@ -2035,7 +2035,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "",
       "itemIds": [
-        "candybox"
+        "lancet_"
       ],
       "special": true,
       "dlc5": true,
@@ -5106,7 +5106,25 @@ window.vs = {
         "tongue_",
         "lass",
         "lass_",
-        "fritta"
+        "fritta",
+        "fire",
+        "fire_",
+        "ice",
+        "ice_",
+        "wind",
+        "wind_",
+        "earth",
+        "earth_",
+        "elec",
+        "elec_",
+        "acid",
+        "acid_",
+        "holy",
+        "holy_",
+        "evil",
+        "evil_",
+        "energy",
+        "energy_"
       ],
       "description": "Listed weapons come with a counterpart.",
       "major": true
@@ -5137,7 +5155,12 @@ window.vs = {
         "miniengineer",
         "minishapeshifter",
         "laser",
-        "laser_"
+        "laser_",
+        "alchemywhip_",
+        "lemuria",
+        "lemuria_",
+        "holy",
+        "holy_"
       ],
       "description": "Listed weapon projectiles generate explosions when they expire. Explosions damage is affected by Curse",
       "major": true
@@ -5159,7 +5182,11 @@ window.vs = {
         "cart",
         "minicrewmate",
         "miniengineer",
-        "miniscientist"
+        "miniscientist",
+        "elec",
+        "elec_",
+        "acid",
+        "acid_"
       ],
       "description": "The cooldown of the listed weapons reduces when moving.",
       "major": true
@@ -5232,6 +5259,14 @@ window.vs = {
         "longgun_",
         "shortgun_",
         "spreadshot_",
+        "javelinC",
+        "javelinC_",
+        "ironball",
+        "ironball_",
+        "bwaka",
+        "bwaka_",
+        "shuriken",
+        "shuriken_"
       ],
       "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls.",
       "major": true
@@ -5298,7 +5333,11 @@ window.vs = {
         "cart",
         "hats",
         "sonic",
-        "sonic_"
+        "sonic_",
+        "windC",
+        "windC_",
+        "earth",
+        "earth_"
       ],
       "description": "Listed weapon projectiles gain up to 3 bounces.",
       "major": true
@@ -5353,7 +5392,12 @@ window.vs = {
         "laser",
         "laser_",
         "lass",
-        "lass2"
+        "lass2",
+        "dragonwater",
+        "dragonwater_",
+        "ice",
+        "ice_",
+        "icebrand"
       ],
       "description": "Listed weapon projectiles have a chance to freeze enemies.",
       "major": true
@@ -5399,7 +5443,28 @@ window.vs = {
         "arrow_",
         "fandango_",
         "tongue_",
-        "miniimpostor"
+        "miniimpostor",
+        "alchemywhip",
+        "alchemywhip_",
+        "sonicwhip",
+        "sonicwhip_",
+        "dragonwater",
+        "dragonwater_",
+        "lemuria",
+        "lemuria_",
+        "windwhip",
+        "windwhip_",
+        "holywhip",
+        "holywhip_",
+        "platinumwhip",
+        "platinumwhip_",
+        "martialwhip",
+        "martialwhip_",
+        "slash",
+        "slash_",
+        "confodere",
+        "confodere_",
+        "confodere__"
       ],
       "description": "Enables critical hits for listed weapons. Doubles overall critical damage.",
       "major": true
@@ -5448,7 +5513,15 @@ window.vs = {
         "firearm_",
         "homingmiss",
         "homingmiss_",
-        "brazier"
+        "brazier",
+        "martialwhip",
+        "martialwhip_",
+        "fire",
+        "fire_",
+        "rpg",
+        "rpg_",
+        "savrogweapon",
+        "aurablastweapon"
       ],
       "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged.",
       "major": true
@@ -5482,7 +5555,9 @@ window.vs = {
         "laurel",
         "minicrewmate",
         "minighost",
-        "miniguardian"
+        "miniguardian",
+        "rapidus",
+        "rapidus_"
       ],
       "description": "Listed weapons also emit special damaging zones affected by Amount and Magnet. Enemies within Magnet range take damage based on Amount.",
       "major": true
