@@ -1468,7 +1468,7 @@ window.vs = {
       "dlc3": true,
       "description": ""
     },
-    
+
     {
       "id": "longgun",
       "name": "Long Gun",
@@ -1561,770 +1561,698 @@ window.vs = {
       "id": "alchemywhip",
       "name": "Alchemy Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Grows stronger every time a boss enemy is defeated.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "windwhip",
-      "name": "Simon's Curse",
+      "name": "Wind Whip",
       "emoji": ":question:",
-      "description": "Increases curse. Creates damaging zones that slow enemies.",
+      "description": "Damage affected by growth.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "platinumwhip",
       "name": "Platinum Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Every 3rd activation fires projectiles in fixed directions.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "dragonwater",
-      "name": "Dragon Water",
+      "name": "Dragon Water Whip",
       "emoji": ":question:",
-      "description": "Generates a string of damaging spheres that target the nearest enemy.",
+      "description": "Every 7th activation fires a snaking dragon projectile.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "sonicwhip",
-      "name": "-",
+      "name": "Sonic Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Chance to instant kill based on curse.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "lemuria",
-      "name": "-",
+      "name": "Jet Black Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Strikes at the nearest enemy and generates a linear damaging zone.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "holywhip",
-      "name": "-",
+      "name": "Vibhuti Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Strikes at the nearest enemy and generates a cluster of explosions.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "martialwhip",
-      "name": "-",
+      "name": "Vanitas Whip",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Strikes at the nearest enemy and generates a perpendicular damaging zone. Zone damage affected by MaxHealth.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "shuriken",
-      "name": "-",
+      "name": "Shuriken",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires projectiles in the faced direction.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "bwaka",
       "name": "Curved Knife",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires a spinning projectile at random enemy.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "javelinC",
       "name": "Javelin",
       "emoji": ":question:",
-      "description": "No description available.",
+      "description": "Fires a penetrating projectile in a fixed direction.",
       "dlc5": true,
       "rarity": 70
-  },
-  {
+    },
+    {
       "id": "discus",
-      "name": "-",
+      "name": "Discus",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires a defensive projectile.",
       "dlc5": true,
       "rarity": 70
-  },
-  {
+    },
+    {
       "id": "ironball",
       "name": "Iron Ball",
       "emoji": ":question:",
-      "description": "Falls straight down quickly.",
+      "description": "Damage affected by Armor.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "gun",
       "name": "Silver Revolver",
       "emoji": ":question:",
-      "description": "Fires a powerful projectile, six times.",
+      "description": "Fires a powerful projectiles, six times.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "rpg",
       "name": "Hand Grenade",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires an exploding projectile.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "wineglass",
-      "name": "-",
+      "name": "Wine Glass",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Throws an exploding projectile.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "fire",
       "name": "Raging Fire",
       "emoji": ":question:",
       "description": "Generates an exploding damaging zone.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "ice",
       "name": "Ice Fang",
       "emoji": ":question:",
       "description": "Generates damaging zones in a straight line.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "windC",
       "name": "Gale Force",
       "emoji": ":question:",
-      "description": "Fires lingering projectiles.",
+      "description": "Fires light-hitting projectiles backwards.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "earth",
       "name": "Rock Riot",
       "emoji": ":question:",
       "description": "Fires projectiles from a fixed location.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "elec",
       "name": "Fulgur",
       "emoji": ":question:",
       "description": "Strikes at fixed locations.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "acid",
-      "name": "Acidic Bubbles",
+      "name": "Keremet Bubbles",
       "emoji": ":question:",
       "description": "Fires slow moving damaging zones.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "evil",
       "name": "Hex",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Generates a moving damaging zone. Damage affected by Curse.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "holy",
       "name": "Refectio",
       "emoji": ":question:",
-      "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
+      "description": "Generates a damaging zone that also provides light healing.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "mace",
-      "name": "MACE",
+      "name": "Mace",
       "emoji": ":question:",
-      "description": "Swings in a damaging arc that passes through enemies. ",
+      "description": "Amount affects number of hits.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "starflail",
-      "name": "-",
+      "name": "Star Flail",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires lingering projectiles. Damage multiplied by Recovery.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "alucardspear",
       "name": "Alucard Spear",
       "emoji": ":question:",
-      "description": "No description available.",
+      "description": "Executes a spinning attack when changing horizontal direction.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "chauve",
       "name": "Trident",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Strikes at fixed locations.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "shield",
-      "name": "Shaman Shield",
+      "name": "Iron Shield",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Retaliates by shooting lingering projectiles.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "sacredbeasts",
-      "name": "Guardians' Targe",
+      "name": "Guardian's Targe",
       "emoji": ":question:",
-      "description": "Fires projectiles when touching enemies, in Retaliation, and when Overhealing by 8+.",
+      "description": "Summons defensive followers. Overhealing triggers additional follower's attacks.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "slash",
       "name": "Tyrfing",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Has boomerang effect, can deal critical damage.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "alucartsworb",
       "name": "Alucart Sworb",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Allegedly strikes at the nearest enemy.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "confodere",
       "name": "Confodere",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Attack nearby enemies. Speed affects damage.",
       "dlc5": true,
       "rarity": 80
-  },
-  {
+    },
+    {
       "id": "energy",
       "name": "Globus",
       "emoji": ":question:",
-      "description": "Fires two bouncing projectiles. Duration affected by Amount.",
+      "description": "Fires two bouncing projectiles. Amount affects Duration.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "spite",
       "name": "Optical Shot",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires two penetrating projectiles.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "custos1",
       "name": "Dextro Custos",
       "emoji": ":question:",
-      "description": "Summons Cerberus' firey head in faced direction. ",
+      "description": "Summons Cerberus' fiery head in faced direction.",
       "dlc5": true,
       "rarity": 70
-  },
-  {
+    },
+    {
       "id": "custos2",
-      "name": "Sinistro Custos",
+      "name": "Sinestro Custos",
       "emoji": ":question:",
-      "description": "Summons Cerberus' icy head opposite to faced direction. May freeze enemies.",
+      "description": "Summons Cerberus' icy head in faced direction.",
       "dlc5": true,
       "rarity": 70
-  },
-  {
+    },
+    {
       "id": "custos3",
       "name": "Centralis Custos",
       "emoji": ":question:",
-      "description": "Boosts aggressive stats but decreases defensive stats.  ",
+      "description": "Summons Cerberus' vengeful head. Boosts Armor, Recovery and Cooldown when damaged.",
       "dlc5": true,
       "rarity": 70
-  },
-  {
+    },
+    {
       "id": "dominus1",
-      "name": "-",
+      "name": "Dominus Anger",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires a penetrating projectile. Drains health.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "dominus2",
-      "name": "-",
+      "name": "Dominus Hatred",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires projectiles from above. Drains health.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "dominus3",
-      "name": "-",
+      "name": "Dominus Agony",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Increases Might, Speed, Duration, and Area. Drains Health.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "rapidus",
       "name": "Sonic Dash",
       "emoji": ":question:",
-      "description": "Increases Move Speed and damages nearby enemies. Area and Speed increase damage.",
+      "description": "Increases Move Speed by 10% per level and damages nearby enemies. Area and speed increases damage.",
       "dlc5": true,
       "rarity": 50
-  },
-  {
+    },
+    {
       "id": "light",
       "name": "Luminatio",
       "emoji": ":question:",
-      "description": "Fires orbiting orbs of light in faced direction. ",
+      "description": "Fires spinning projectiles made of light.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "dark",
-      "name": "Umbral Hex",
+      "name": "Umbra",
       "emoji": ":question:",
-      "description": "Fires orbiting orbs of light in faced direction. ",
+      "description": "Fires spinning projectiles made of darkness.",
       "dlc5": true,
       "rarity": 60
-  },
-  {
+    },
+    {
       "id": "universitas",
-      "name": "-",
+      "name": "Universitas",
       "emoji": ":question:",
       "description": "-",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "valmanway",
       "name": "Valmanway",
       "emoji": ":question:",
       "description": "Stronger with movement.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
+      "id": "gearsweapon",
+      "name": "Endo Gears",
+      "emoji": ":question:",
+      "description": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Orologions.",
+      "dlc5": true,
+      "rarity": 20
+    },
+    {
+      "id": "pendulumweapon",
+      "name": "Peri Pendulum",
+      "emoji": ":question:",
+      "description": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Orologions.",
+      "dlc5": true,
+      "rarity": 20
+    },
+    {
+      "id": "elevatorweapon",
+      "name": "Myo Lift",
+      "emoji": ":question:",
+      "description": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Orologions.",
+      "dlc5": true,
+      "rarity": 20
+    },
+    {
+      "id": "headsweapon",
+      "name": "Epi Head",
+      "emoji": ":question:",
+      "description": "Also triggers other clockwork weapons. Damage increased by Amount and currently found Orologions.",
+      "dlc5": true,
+      "rarity": 20
+    },
+    {
+      "id": "morningstar",
+      "name": "Morning Star",
+      "emoji": ":question:",
+      "description": "Allows you to choose from a selection of magic whips.",
+      "dlc5": true,
+      "rarity": 2
+    },
+    {
+      "id": "coatofarms",
+      "name": "Coat of Arms",
+      "emoji": ":question:",
+      "description": "Allows you to choose from a selection of vampire-killing tools.",
+      "dlc5": true,
+      "rarity": 2
+    },
+    {
+      "id": "spellbook",
+      "name": "Belnades' Spellbook",
+      "emoji": ":question:",
+      "description": "Allows you to choose from a selection of spells.",
+      "dlc5": true,
+      "rarity": 2
+    },
+    {
+      "id": "spectralsword",
+      "name": "Spectral Sword",
+      "emoji": ":question:",
+      "description": "Allows you to choose from a selection of magic weapons.",
+      "dlc5": true,
+      "rarity": 2
+    },
+    {
+      "id": "diabologue",
+      "name": "Ebony Diabologue",
+      "emoji": ":question:",
+      "description": "Allows you to choose from a selection of ambiguous powers.",
+      "dlc5": true,
+      "rarity": 2
+    },
+    {
+      "id": "familiarforge",
+      "name": "Familiar Forge",
+      "emoji": ":question:",
+      "description": "Allows you to summon a familiar.",
+      "dlc5": true,
+      "rarity": 6
+    },
+    {
+      "id": "valmanway",
+      "name": "Valmanway",
+      "emoji": ":question:",
+      "description": "Fires faster when moving.",
+      "dlc5": true,
+      "rarity": 20
+    },
+    {
       "id": "icebrand",
-      "name": "Unknown",
+      "name": "Icebrand",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Fires lingering projectiles. Might freeze enemies.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "gothmissile",
-      "name": "-",
+      "name": "Arrow of Goth",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Critical hits maximise amount of projectiles.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "aurablastweapon",
       "name": "Aura Blast",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Generates explosive sideways.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "savrogweapon",
       "name": "Svarog Statue",
       "emoji": ":question:",
-      "description": "Generates damaging zones when moving.",
+      "description": "Geneartes damaging zones when moving.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "neutronweapon",
       "name": "Troll Bomb",
       "emoji": ":question:",
       "description": "This one doesn't bounce.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "hydrostorm",
-      "name": "-",
+      "name": "Hydro Storm",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Generates damaging waves based on Projectile Speed and Duration.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "grandcross",
-      "name": "-",
+      "name": "Grand Cross",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Summons holy light.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "summonspirit",
       "name": "Summon Spirit",
       "emoji": ":question:",
-      "description": "___",
+      "description": "Fires a homing projectile.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "soulstealweapon",
       "name": "Soul Steal",
       "emoji": ":question:",
-      "description": "Attempts to destroy all enemies and turn them into hearts.",
+      "description": "Damages all enemies in sight and attempts to turn them into hearts.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "darkrift",
       "name": "Dark Rift",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Generates vertical damaging zones.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "swordbrothers",
       "name": "Sword Brothers",
       "emoji": ":question:",
-      "description": "___",
+      "description": "Grants a brief moment of Invulnerability and generates a damaging wave.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
+    },
+    {
       "id": "spirittornado",
-      "name": "Red Jewel",
+      "name": "Summon Spirit Tornado",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Summons spirits that will occasionally pick up XP gems for you.",
       "dlc5": true,
       "rarity": 20
-  },
-  {
-      "id": "valmanwaysonicwhip",
-      "name": "Valmanway",
-      "emoji": ":question:",
-      "description": "Stronger with movement.",
-      "dlc5": true,
-      "rarity": 1
-  },
-  {
-      "id": "gothmissileholywhip",
-      "name": "-",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 1
-  },
-  {
-      "id": "aurablastmartialwhip",
-      "name": "Aura Blast",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 10
-  },
-  {
-      "id": "hydrostormwaterdragonwhip",
-      "name": "-",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 1
-  },
-  {
-      "id": "grandcrossplatinumwhip",
-      "name": "-",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 1
-  },
-  {
-      "id": "spirittornadowindwhip",
-      "name": "Red Jewel",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 10
-  },
-  {
-      "id": "darkriftjetblackwhip",
-      "name": "Dark Rift",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 100
-  },
-  {
-      "id": "gearsweapon",
-      "name": "Clock Tower",
-      "emoji": ":question:",
-      "description": ".",
-      "dlc5": true,
-      "rarity": 20
-  },
-  {
-      "id": "pendulumweapon",
-      "name": "Clock Tower",
-      "emoji": ":question:",
-      "description": ".",
-      "dlc5": true,
-      "rarity": 20
-  },
-  {
-      "id": "elevatorweapon",
-      "name": "Clock Tower",
-      "emoji": ":question:",
-      "description": ".",
-      "dlc5": true,
-      "rarity": 20
-  },
-  {
-      "id": "headsweapon",
-      "name": "Clock Tower",
-      "emoji": ":question:",
-      "description": ".",
-      "dlc5": true,
-      "rarity": 20
-  },
-  {
-      "id": "energy1counter",
-      "name": "Anti Globus",
-      "emoji": ":question:",
-      "description": "Fires two bouncing projectiles. Duration affected by Amount.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "fire1counter",
-      "name": "Anti Raging Fire",
-      "emoji": ":question:",
-      "description": "Generates an exploding damaging zone.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "ice1counter",
-      "name": "Anti Ice Fang",
-      "emoji": ":question:",
-      "description": "Generates damaging zones in a straight line.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "earth1counter",
-      "name": "Anti Rock Riot",
-      "emoji": ":question:",
-      "description": "Fires projectiles from a fixed location.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "wind1counter",
-      "name": "Anti Gale Force",
-      "emoji": ":question:",
-      "description": "Fires lingering projectiles.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "elec1counter",
-      "name": "Anti Fulgur",
-      "emoji": ":question:",
-      "description": "Strikes at fixed locations.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "acid1counter",
-      "name": "Speculo Acidic Bubbles",
-      "emoji": ":question:",
-      "description": "Fires slow moving damaging zones.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "holy1counter",
-      "name": "Anti Refectio",
-      "emoji": ":question:",
-      "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
-      "id": "evil1counter",
-      "name": "Anti Hex",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 60
-  },
-  {
+    },
+    {
       "id": "neutronpickup",
       "name": "Neutron Bomb",
       "emoji": ":question:",
       "description": "Deals high damage in a large area.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "soulstealpickup",
       "name": "Soul Steal",
       "emoji": ":question:",
       "description": "Attempts to destroy all enemies and turn them into hearts.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarukoback",
       "name": "Ukoback Familiar",
       "emoji": ":question:",
       "description": "Summons an angry familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarbitterfly",
       "name": "Bitterfly Familiar",
       "emoji": ":question:",
       "description": "Summons a quiet familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarimp",
       "name": "Imp Familiar",
       "emoji": ":question:",
       "description": "Summons a naughty familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarallegedghost",
       "name": "Alleged Ghost Familiar",
       "emoji": ":question:",
       "description": "Summons a non-existent familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarwizard",
       "name": "Mage Familiar",
       "emoji": ":question:",
       "description": "Summons a magical familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarfairy",
       "name": "Faerie Familiar",
       "emoji": ":question:",
       "description": "Summons a good natured familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarpumpkin",
       "name": "Pumpkin Familiar",
       "emoji": ":question:",
       "description": "Summons a crazy familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarcardinal",
       "name": "Sacred Cardinal",
       "emoji": ":question:",
       "description": "Summons a fiery familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliardragon",
       "name": "Sacred Dragon",
       "emoji": ":question:",
       "description": "Summons a fizzy familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliartiger",
       "name": "Sacred Tiger",
       "emoji": ":question:",
       "description": "Summons a chilled familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "accfamiliarturtle",
       "name": "Sacred Turtle",
       "emoji": ":question:",
       "description": "Summons a grounded familiar.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "shaftorb",
       "name": "-",
       "emoji": ":question:",
       "description": "-",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "bluefireweapon",
       "name": "Burning Alcarde",
       "emoji": ":question:",
       "description": "-",
       "dlc5": true,
       "rarity": 0
-  },
-  {
+    },
+    {
       "id": "deathhand",
       "name": "Anima of Death",
       "emoji": ":question:",
       "description": "Hands of Death.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "draculahand",
       "name": "Anima of Dracula",
       "emoji": ":question:",
       "description": "Hands of Dracula.",
       "dlc5": true,
       "rarity": 1
-  },
-  {
+    },
+    {
       "id": "poweroflire",
       "name": "Power of Lire",
       "emoji": ":question:",
       "description": ".",
       "dlc5": true,
       "rarity": 1
-  }
+    }
   ],
   "evolutions": [
     {
@@ -3105,7 +3033,79 @@ window.vs = {
       "emoji": ":question:",
       "description": "Has a small chance to freeze enemies.",
       "dlc4": true
-    }
+    },
+    {
+      "id": "energy1counter",
+      "name": "Anti Globus",
+      "emoji": ":question:",
+      "description": "Fires two bouncing projectiles. Duration affected by Amount.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "fire1counter",
+      "name": "Anti Raging Fire",
+      "emoji": ":question:",
+      "description": "Generates an exploding damaging zone.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "ice1counter",
+      "name": "Anti Ice Fang",
+      "emoji": ":question:",
+      "description": "Generates damaging zones in a straight line.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "earth1counter",
+      "name": "Anti Rock Riot",
+      "emoji": ":question:",
+      "description": "Fires projectiles from a fixed location.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "wind1counter",
+      "name": "Anti Gale Force",
+      "emoji": ":question:",
+      "description": "Fires lingering projectiles.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "elec1counter",
+      "name": "Anti Fulgur",
+      "emoji": ":question:",
+      "description": "Strikes at fixed locations.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "acid1counter",
+      "name": "Speculo Acidic Bubbles",
+      "emoji": ":question:",
+      "description": "Fires slow moving damaging zones.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "holy1counter",
+      "name": "Anti Refectio",
+      "emoji": ":question:",
+      "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
+      "dlc5": true,
+      "rarity": 60
+    },
+    {
+      "id": "evil1counter",
+      "name": "Anti Hex",
+      "emoji": ":question:",
+      "description": "-",
+      "dlc5": true,
+      "rarity": 60
+    },
   ],
   "passives": [
     {
