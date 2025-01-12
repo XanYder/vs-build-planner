@@ -3140,150 +3140,6 @@ window.vs = {
       "description": "Summons spirits that will occasionally pick up XP gems for you.",
       "dlc5": true,
       "rarity": 20
-    },
-    {
-      "id": "neutronpickup",
-      "name": "Neutron Bomb",
-      "emoji": ":question:",
-      "description": "Deals high damage in a large area.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "soulstealpickup",
-      "name": "Soul Steal",
-      "emoji": ":question:",
-      "description": "Attempts to destroy all enemies and turn them into hearts.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarukoback",
-      "name": "Ukoback Familiar",
-      "emoji": ":question:",
-      "description": "Summons an angry familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarbitterfly",
-      "name": "Bitterfly Familiar",
-      "emoji": ":question:",
-      "description": "Summons a quiet familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarimp",
-      "name": "Imp Familiar",
-      "emoji": ":question:",
-      "description": "Summons a naughty familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarallegedghost",
-      "name": "Alleged Ghost Familiar",
-      "emoji": ":question:",
-      "description": "Summons a non-existent familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarwizard",
-      "name": "Mage Familiar",
-      "emoji": ":question:",
-      "description": "Summons a magical familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarfairy",
-      "name": "Faerie Familiar",
-      "emoji": ":question:",
-      "description": "Summons a good natured familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarpumpkin",
-      "name": "Pumpkin Familiar",
-      "emoji": ":question:",
-      "description": "Summons a crazy familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarcardinal",
-      "name": "Sacred Cardinal",
-      "emoji": ":question:",
-      "description": "Summons a fiery familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliardragon",
-      "name": "Sacred Dragon",
-      "emoji": ":question:",
-      "description": "Summons a fizzy familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliartiger",
-      "name": "Sacred Tiger",
-      "emoji": ":question:",
-      "description": "Summons a chilled familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "accfamiliarturtle",
-      "name": "Sacred Turtle",
-      "emoji": ":question:",
-      "description": "Summons a grounded familiar.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "shaftorb",
-      "name": "-",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "bluefireweapon",
-      "name": "Burning Alcarde",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 0
-    },
-    {
-      "id": "deathhand",
-      "name": "Anima of Death",
-      "emoji": ":question:",
-      "description": "Hands of Death.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "draculahand",
-      "name": "Anima of Dracula",
-      "emoji": ":question:",
-      "description": "Hands of Dracula.",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
-      "id": "poweroflire",
-      "name": "Power of Lire",
-      "emoji": ":question:",
-      "description": ".",
-      "dlc5": true,
-      "rarity": 1
     }
   ],
   "evolutions": [
@@ -4903,7 +4759,107 @@ window.vs = {
       "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%",
       "itemIds": [],
       "dlc5": true
-    }
+    },
+    {
+      "id": "accfamiliarukoback",
+      "name": "Ukoback Familiar",
+      "emoji": ":question:",
+      "description": "Summons an angry familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarbitterfly",
+      "name": "Bitterfly Familiar",
+      "emoji": ":question:",
+      "description": "Summons a quiet familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarimp",
+      "name": "Imp Familiar",
+      "emoji": ":question:",
+      "description": "Summons a naughty familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarallegedghost",
+      "name": "Alleged Ghost Familiar",
+      "emoji": ":question:",
+      "description": "Summons a non-existent familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarwizard",
+      "name": "Mage Familiar",
+      "emoji": ":question:",
+      "description": "Summons a magical familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarfairy",
+      "name": "Faerie Familiar",
+      "emoji": ":question:",
+      "description": "Summons a good natured familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarpumpkin",
+      "name": "Pumpkin Familiar",
+      "emoji": ":question:",
+      "description": "Summons a crazy familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarcardinal",
+      "name": "Sacred Cardinal",
+      "emoji": ":question:",
+      "description": "Summons a fiery familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliardragon",
+      "name": "Sacred Dragon",
+      "emoji": ":question:",
+      "description": "Summons a fizzy familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliartiger",
+      "name": "Sacred Tiger",
+      "emoji": ":question:",
+      "description": "Summons a chilled familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+    {
+      "id": "accfamiliarturtle",
+      "name": "Sacred Turtle",
+      "emoji": ":question:",
+      "description": "Summons a grounded familiar.",
+      "dlc5": true,
+      "extra": true,
+      "rarity": 1
+    },
+
   ],
   "powerups": [
     {
