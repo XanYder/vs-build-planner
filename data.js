@@ -1910,14 +1910,6 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "universitas",
-      "name": "Universitas",
-      "emoji": ":question:",
-      "description": "-",
-      "dlc5": true,
-      "rarity": 1
-    },
-    {
       "id": "valmanway",
       "name": "Valmanway",
       "emoji": ":question:",
@@ -3286,6 +3278,16 @@ window.vs = {
       "description": "-",
     },
     {
+      "id": "alucardshield_",
+      "name": "Alucard Shield",
+      "itemIds": [
+        "alucardsword_"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
       "id": "confodere_",
       "name": "Vol Confodere",
       "itemIds": [
@@ -3335,6 +3337,7 @@ window.vs = {
         "custos2",
         "custos3"
       ],
+      "special": true,
       "emoji": ":question:",
       "dlc5": true,
       "description": "Union of Dextros, Sinistro, and Arma Custos.",
@@ -3347,6 +3350,7 @@ window.vs = {
         "dominus2",
         "dominus3"
       ],
+      "special": true,
       "emoji": ":question:",
       "dlc5": true,
       "description": "-",
@@ -3379,6 +3383,17 @@ window.vs = {
       "itemIds": [
         "dark",
         "magnet"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "universitas",
+      "name": "-",
+      "itemIds": [
+        "light_",
+        "dark_"
       ],
       "emoji": ":question:",
       "dlc5": true,
