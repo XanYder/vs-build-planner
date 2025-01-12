@@ -1001,7 +1001,1047 @@ window.vs = {
       "surname": "Belmont",
       "description": "Simondo says he doesn't even need guns. Gets more projectiles every 20 levels (max +4).",
       "price": 10000
-    }
+    },
+    {
+      "id": "leon",
+      "name": "Leon",
+      "emoji": ":question:",
+      "description": "Receives a hidden Svarog Statue at Level 5. Gets a bonus to most stats when Vampire Killer is equipped. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 10
+    },
+    {
+      "id": "sonia",
+      "name": "Sonia",
+      "emoji": ":question:",
+      "description": "Gains a temporary Cooldown reduction when overhealing by 8+. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "trevor",
+      "name": "Trevor",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana X - Beginning. Gains +1 Amount every 10 levels (max +3). Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "christopher",
+      "name": "Christopher",
+      "emoji": ":question:",
+      "description": "Greed can occasionally affect Might, Area, and Armor. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "simon",
+      "name": "Simon",
+      "emoji": ":question:",
+      "description": "Growth can occasionally affect Might, Area, and Armor. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "juste",
+      "name": "Juste",
+      "emoji": ":question:",
+      "description": "Can receive Spellnades'Spellbook as 4th level up option until Level 7. Every 6 levels automatically levels up any equipped spell from the Spellnades'Spellbook. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "richter",
+      "name": "Richter",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana IX - Divine Bloodline.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "julius",
+      "name": "Julius",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana XIX - Heart of Fire. When Health is low, Might is increased. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 500
+    },
+    {
+      "id": "grant",
+      "name": "Grant",
+      "emoji": ":question:",
+      "description": "Retaliates by triggering any equipped knives. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Danasty",
+      "price": 200
+    },
+    {
+      "id": "quincy",
+      "name": "Quincy",
+      "emoji": ":question:",
+      "description": "Charge ability affected by Might: attempts to safely detonate a Neutron Bomb.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Morris",
+      "price": 2000
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "emoji": ":question:",
+      "description": "Gains an extra Arcana VII - Iron Blue Will at level 10. Obtains a Mirror of Truth every 5 levels.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Morris",
+      "price": 500
+    },
+    {
+      "id": "jonathan",
+      "name": "Jonathan",
+      "emoji": ":question:",
+      "description": "Charge ability affected by Speed: triggers all equipped weapons from the Coat of Arms. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Morris",
+      "price": 500
+    },
+    {
+      "id": "maxim",
+      "name": "Maxim",
+      "emoji": ":question:",
+      "description": "Overhealing slightly increases Speed. Might is greatly increased while Invulnerable.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Kischine",
+      "price": 2000
+    },
+    {
+      "id": "henry",
+      "name": "Henry",
+      "emoji": ":question:",
+      "description": "Gains a bonus to Area and Luck depending on how many enemies are in sight.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "soma",
+      "name": "Soma",
+      "emoji": ":question:",
+      "description": "Gains +1% Might every level. Immune to health drain. Once per life, triggers Soul Steal after receiving fatal damage.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Cruz",
+      "price": 1000
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "emoji": ":question:",
+      "description": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 0
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "emoji": ":question:",
+      "description": "Charge ability affected by Growth: triggers all equipped weapons from the Belnades'Spellbook. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Aulin",
+      "price": 500
+    },
+    {
+      "id": "sypha",
+      "name": "Sypha",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana XIV - Jail of Crystal.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belnades",
+      "price": 1665
+    },
+    {
+      "id": "julia",
+      "name": "Julia",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana VI - Sarabande of Healing. Obtains a Heart Refresh every 2 levels. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Laforeze",
+      "price": 7
+    },
+    {
+      "id": "carrie",
+      "name": "Carrie",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana XI - Waltz of Pearls.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Fernandez",
+      "price": 1665
+    },
+    {
+      "id": "yoko",
+      "name": "Yoko",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana III - Tragic Princess. Activates any equipped lightning-themed weapon after walking a certain distance.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belnades",
+      "price": 1665
+    },
+    {
+      "id": "rinaldo",
+      "name": "Rinaldo",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana I - Gemini.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Gandolfi",
+      "price": 1665
+    },
+    {
+      "id": "mina",
+      "name": "Mina",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana II - Twilight Requiem.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Hakuba",
+      "price": 1665
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth",
+      "emoji": ":question:",
+      "description": "Increases enemies spawn quantity by 50. Immune to health drain. Reveals a demonic form after defeating a large amount of enemies.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Bartley",
+      "price": 6665
+    },
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "emoji": ":question:",
+      "description": "Charge: Soul Steal.\nLevelUp: Dark Inferno.\nOverheal 8+: Summon Spirit.\nHP-Critical: Sword Brothers.\nImmune to health drain.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 1000
+    },
+    {
+      "id": "reinhardt",
+      "name": "Reinhardt",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana XVI - Slash. Inflicts higher overall critical damage.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Schneider",
+      "price": 2000
+    },
+    {
+      "id": "eric",
+      "name": "Eric",
+      "emoji": ":question:",
+      "description": "Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Lecarde",
+      "price": 500
+    },
+    {
+      "id": "isaac",
+      "name": "Isaac",
+      "emoji": ":question:",
+      "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "hector",
+      "name": "Hector",
+      "emoji": ":question:",
+      "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 500
+    },
+    {
+      "id": "sara",
+      "name": "Sara",
+      "emoji": ":question:",
+      "description": "Gains +0.02 Recovery every level. Once per life, triggers Firebreathing in any character. Evolves the Alchemy Whip when reviving.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Trantoul",
+      "price": 2000
+    },
+    {
+      "id": "vincent",
+      "name": "Vincent",
+      "emoji": ":question:",
+      "description": "Overhealing slightly increases Greed. Greed is doubled while Invulnerable. Starts with extra Arcana XV - Disco of Gold.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Dorin",
+      "price": 9000
+    },
+    {
+      "id": "mariaa",
+      "name": "Maria",
+      "emoji": ":question:",
+      "description": "Gains a follower every 10 levels starting from level 2. Overhealing slightly increases Might. Overhealing by +32 temporarily boosts all current followers.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Renard",
+      "price": 1000
+    },
+    {
+      "id": "shanoa",
+      "name": "Shanoa",
+      "emoji": ":question:",
+      "description": "Gains +1% Might every level. Charge ability: triggers all equipped weapons from the Ebony Diabologue. Can find special pickups.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 1000
+    },
+    {
+      "id": "albus",
+      "name": "Albus",
+      "emoji": ":question:",
+      "description": "Gains a bonus to Might and Cooldown depending on how many enemies are in sight.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa",
+      "emoji": ":question:",
+      "description": "Gains +1 Growth every level. Starts with extra Arcana XX - Silent Old Sanctuary.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "shaft",
+      "name": "Shaft",
+      "emoji": ":question:",
+      "description": "Gains +1% Curse every level. Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "stgermain",
+      "name": "Saint Germain",
+      "emoji": ":question:",
+      "description": "Gains 0.002% Cooldown reduction per level. Starts with extra Arcana XII - Out of Bounds.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "nathan",
+      "name": "Nathan",
+      "emoji": ":question:",
+      "description": "Starts with extra Arcana V - Awake. Obtains an extra choice of Arcana after surviving 7 and 14 minutes.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Graves",
+      "price": 2000
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell",
+      "emoji": ":question:",
+      "description": "Morphs into a stronger version when equipped with Trinum Custodem.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "barlowe",
+      "name": "Barlowe",
+      "emoji": ":question:",
+      "description": "Overhealing slightly increases Might and Curse. Might receive Ebony Diabologue as 4th level up option until Level 11.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "mariab",
+      "name": "Maria",
+      "emoji": ":question:",
+      "description": "Cannot be damaged, but disappears after reaching the current Time Limit. Always has a forced 4th level up option.",
+      "itemIds": [
+        "familiarforge"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Renard",
+      "price": 9000
+    },
+    {
+      "id": "familiars",
+      "name": "Familiar",
+      "emoji": ":question:",
+      "description": "Gets more projectiles every 20 levels (max +3).",
+      "itemIds": [
+        "holy"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 100
+    },
+    {
+      "id": "innocent_devils",
+      "name": "Innocent",
+      "emoji": ":question:",
+      "description": "Gets more projectiles every 20 levels (max +3).",
+      "itemIds": [
+        "savrogweapon"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Devil",
+      "price": 100
+    },
+    {
+      "id": "cornell_bcm",
+      "name": "Cornell",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 9000
+    },
+    {
+      "id": "ferryman",
+      "name": "Ferryman",
+      "emoji": ":question:",
+      "description": "Water included.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 1665
+    },
+    {
+      "id": "librarian",
+      "name": "Librarian",
+      "emoji": ":question:",
+      "description": "",
+      "itemIds": [
+        "rapidus"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 65536
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "rpg"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 9000
+    },
+    {
+      "id": "wind",
+      "name": "Wind",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "aurablastweapon"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "jonathan_and_charlotte",
+      "name": "Jonathan & Charlotte",
+      "emoji": ":question:",
+      "description": "Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte!",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "charlotte_and_jonathan",
+      "name": "Charlotte & Jonathan",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "stella_and_loretta",
+      "name": "Stella & Loretta",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "wind"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Lecarde",
+      "price": 2000
+    },
+    {
+      "id": "loretta_and_stella",
+      "name": "Loretta & Stella",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "ice"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Lecarde",
+      "price": 2000
+    },
+    {
+      "id": "stella",
+      "name": "Stella",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "wind"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Lecarde",
+      "price": 2000
+    },
+    {
+      "id": "loretta",
+      "name": "Loretta",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "ice"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Lecarde",
+      "price": 2000
+    },
+    {
+      "id": "brauner",
+      "name": "Brauner",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "soleil",
+      "name": "Soleil",
+      "emoji": ":question:",
+      "description": "Recently got into whips.",
+      "itemIds": [
+        "lemuria"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Belmont",
+      "price": 1665
+    },
+    {
+      "id": "dario",
+      "name": "Dario",
+      "emoji": ":question:",
+      "description": "Increases the base damage of every equipped fire-type weapon when levelling up.",
+      "itemIds": [
+        "fire"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Bossi",
+      "price": 1665
+    },
+    {
+      "id": "dmitri",
+      "name": "Dmitri",
+      "emoji": ":question:",
+      "description": "Gets a hidden clone of the latest equipped weapon or evolution.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Blinov",
+      "price": 1665
+    },
+    {
+      "id": "celia",
+      "name": "Celia",
+      "emoji": ":question:",
+      "description": "Obtains a Karma Coin every 2 levels",
+      "itemIds": [
+        "light"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Fortner",
+      "price": 1665
+    },
+    {
+      "id": "graham",
+      "name": "Graham",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "dark"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Jones",
+      "price": 16650
+    },
+    {
+      "id": "joachim",
+      "name": "Joachim",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "slash"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "walter",
+      "name": "Walter",
+      "emoji": ":question:",
+      "description": "-",
+      "itemIds": [
+        "energy"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "carmilla",
+      "name": "Carmilla",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "olrox",
+      "name": "Olrox",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "darkrift"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "cavetroll",
+      "name": "Cave Troll",
+      "emoji": ":question:",
+      "description": "Gets more projectiles every 20 levels (max +4).",
+      "itemIds": [
+        "neutronweapon"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 500
+    },
+    {
+      "id": "fleaman",
+      "name": "Fleman",
+      "emoji": ":question:",
+      "description": "He doesn't understand the game.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 500
+    },
+    {
+      "id": "axearmor",
+      "name": "Axe Armor",
+      "emoji": ":question:",
+      "description": "Six axes axe axes as axes axe.",
+      "itemIds": [
+        "axe"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 2000
+    },
+    {
+      "id": "frozenshade",
+      "name": "Frozenshade",
+      "emoji": ":question:",
+      "description": "She likes her Wall and Floor chicken well frozen.",
+      "itemIds": [
+        "icebrand"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 500
+    },
+    {
+      "id": "succubus",
+      "name": "Succubus",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "evil"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "keremet",
+      "name": "Keremet",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "acid"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "emoji": ":question:",
+      "description": "Gains +1% Luck every level. Flies.",
+      "itemIds": [
+        "gothmissile"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "blackmore",
+      "name": "Blackmore",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "summonspirit"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "malphas",
+      "name": "Malphas",
+      "emoji": ":question:",
+      "description": "Has hidden weapons that grow stronger when levelling up. Flies.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "death",
+      "name": "Death",
+      "emoji": ":question:",
+      "description": "Doesn't appreciate getting blasphemously mockered.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "galamoth",
+      "name": "Galamoth",
+      "emoji": ":question:",
+      "description": "",
+      "itemIds": [
+        "elec"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "elizabeth_mega",
+      "name": "Elizabeth",
+      "emoji": ":question:",
+      "description": "Increases enemies spawn quantity by 50. Immune to health drain.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "Bartley",
+      "price": 16650
+    },
+    {
+      "id": "olrox_mega",
+      "name": "Olrox",
+      "emoji": ":question:",
+      "description": ".",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "death_mega",
+      "name": "Death",
+      "emoji": ":question:",
+      "description": "Doesn't appreciate getting blasphemously mockered.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "dracula_mega",
+      "name": "Dracula",
+      "emoji": ":question:",
+      "description": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 16650
+    },
+    {
+      "id": "chaos",
+      "name": "Chaos",
+      "emoji": ":question:",
+      "description": "",
+      "itemIds": [
+        "candybox"
+      ],
+      "special": true,
+      "dlc5": true,
+      "surname": "",
+      "price": 1048576
+    },
   ],
   "weapons": [
     {
