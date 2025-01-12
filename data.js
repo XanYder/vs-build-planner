@@ -1806,7 +1806,7 @@ window.vs = {
       "rarity": 80
     },
     {
-      "id": "alucartsworb",
+      "id": "alucardsword",
       "name": "Alucart Sworb",
       "emoji": ":question:",
       "description": "Allegedly strikes at the nearest enemy.",
@@ -2933,6 +2933,469 @@ window.vs = {
       "emoji": ":question:",
       "dlc4": true,
       "description": "Evolved Metal Claw. Pummels the most powerful enemies in sight."
+    },
+    {
+      "id": "alchemywhip_",
+      "name": "Vampire Killer",
+      "itemIds": [
+          "alchemywhip",
+          "revival"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "windwhip_",
+      "name": "-",
+      "itemIds": [
+        "windwhip",
+        "growth"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "platinumwhip_",
+      "name": "-",
+      "itemIds": [
+        "platinumwhip",
+        "luck"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "dragonwater_",
+      "name": "-",
+      "itemIds": [
+        "dragonwater",
+        "magnet"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "sonicwhip_",
+      "name": "-",
+      "itemIds": [
+        "sonicwhip",
+        "curse"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "lemuria_",
+      "name": "-",
+      "itemIds": [
+        "lemuria",
+        "greed"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "holywhip_",
+      "name": "-",
+      "itemIds": [
+        "holywhip",
+        "area"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "martialwhip_",
+      "name": "-",
+      "itemIds": [
+        "martialwhip",
+        "health"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "shuriken_",
+      "name": "-",
+      "itemIds": [
+        "shuriken",
+        "cooldown"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "bwaka_",
+      "name": "Bwaka Knife",
+      "itemIds": [
+        "bwaka",
+        "speed"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "javelinC_",
+      "name": "Alucard Spear",
+      "itemIds": [
+        "javelinC",
+        "duration"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Evolved Spear. Fires a constant flurry of spears. Changing horizontal direction triggers a spin attack. ",
+    },
+    {
+      "id": "discus_",
+      "name": "-",
+      "itemIds": [
+        "discus",
+        "parma"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "ironball_",
+      "name": "Wrecking Bawl",
+      "itemIds": [
+        "ironball",
+        "armor"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Evolved Iron Ball. Powerful damaging ball spins based on movement. ",
+    },
+    {
+      "id": "gun_",
+      "name": "-",
+      "itemIds": [
+        "gun",
+        "dominion"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "rpg_",
+      "name": "-",
+      "itemIds": [
+        "rpg",
+        "area"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "wineglass_",
+      "name": "-",
+      "itemIds": [
+        "wineglass",
+        "revival"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "fire_",
+      "name": "Salamender",
+      "itemIds": [
+        "fire",
+        "might"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "ice_",
+      "name": "Cocytus",
+      "itemIds": [
+        "ice",
+        "duration"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": ".",
+    },
+    {
+      "id": "windC_",
+      "name": "Pneuma Pneuma",
+      "itemIds": [
+        "windC",
+        "speed"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": ".",
+    },
+    {
+      "id": "earth_",
+      "name": "Gemma Torpor",
+      "itemIds": [
+        "earth",
+        "greed"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Drops rocks from above. Rocks turn into static damaging crystals.",
+    },
+    {
+      "id": "elec_",
+      "name": "Fulgur's Bellow",
+      "itemIds": [
+        "elec",
+        "amount"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Union of Thunder Loop and Tallhammer. Lightning strikes thrice, creates moving spheres of chain lightning.  ",
+    },
+    {
+      "id": "acid_",
+      "name": "-",
+      "itemIds": [
+        "acid",
+        "armor"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "evil_",
+      "name": "-",
+      "itemIds": [
+        "evil",
+        "curse"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "holy_",
+      "name": "-",
+      "itemIds": [
+        "holy",
+        "luck"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "mace_",
+      "name": "Tallhammer",
+      "itemIds": [
+        "mace",
+        "health"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Evolved Mace. Enemies struck may trigger areas of chain lightning. ",
+    },
+    {
+      "id": "starflail_",
+      "name": "-",
+      "itemIds": [
+        "starflail",
+        "recovery"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "alucardspear_",
+      "name": "Aero Slice",
+      "itemIds": [
+        "alucardspear",
+        "wings"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "- ",
+    },
+    {
+      "id": "chauve_",
+      "name": "Chauve-souris",
+      "itemIds": [
+        "chauve",
+        "amount"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "shield_",
+      "name": "Dark Shield",
+      "itemIds": [
+        "shield",
+        "parma"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "sacredbeasts_",
+      "name": "Sacred Targe",
+      "itemIds": [
+        "sacredbeasts",
+        "recovery"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Evolution of Guardian Targe. Overhealing by 32+ also triggers a period of invulnerability.",
+    },
+    {
+      "id": "slash_",
+      "name": "-",
+      "itemIds": [
+        "slash",
+        "might"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "alucardsword_",
+      "name": "Alucard Sword",
+      "itemIds": [
+        "alucardsword"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "confodere_",
+      "name": "Vol Confodere",
+      "itemIds": [
+        "confodere"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "confodere__",
+      "name": "Melio Confodere",
+      "itemIds": [
+        "confodere_"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "energy_",
+      "name": "Nitesco",
+      "itemIds": [
+        "energy",
+        "cooldown"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "spite_",
+      "name": "Acerbatus",
+      "itemIds": [
+        "spite",
+        "dominion"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "custos_",
+      "name": "Trinum Custodem",
+      "itemIds": [
+        "custos1",
+        "custos2",
+        "custos3"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Union of Dextros, Sinistro, and Arma Custos.",
+    },
+    {
+      "id": "dominus_",
+      "name": "-",
+      "itemIds": [
+        "dominus1",
+        "dominus2",
+        "dominus3"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "rapidus_",
+      "name": "Rapidus Fio",
+      "itemIds": [
+        "rapidus",
+        "wings"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "Evolved Sonic Dash. Also provides a Shield when firing.",
+    },
+    {
+      "id": "light_",
+      "name": "-",
+      "itemIds": [
+        "light",
+        "growth"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "dark_",
+      "name": "-",
+      "itemIds": [
+        "dark",
+        "magnet"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
+    },
+    {
+      "id": "clocktower_weapon",
+      "name": "Clock Tower",
+      "itemIds": [
+        "gearsweapon",
+        "pendulumweapon",
+        "elevatorweapon",
+        "headsweapon"
+      ],
+      "emoji": ":question:",
+      "dlc5": true,
+      "description": "-",
     }
   ],
   "counterparts": [
@@ -3369,6 +3832,22 @@ window.vs = {
       "itemIds": [],
       "dlc4": true,
       "extra": true
+    },
+    {
+      "id": "parma",
+      "name": "Parm Aegis",
+      "emoji": ":question:",
+      "description": "Increases invulnerability time after getting damaged by 50ms.",
+      "itemIds": [],
+      "dlc5": true
+    },
+    {
+      "id": "dominion",
+      "name": "Karoma's Mana",
+      "emoji": ":question:",
+      "description": "Increases enemies spawn quantity by 10. Increases duration of Gold Fever and Gold Finger by 10%",
+      "itemIds": [],
+      "dlc5": true
     }
   ],
   "powerups": [
