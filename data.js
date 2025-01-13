@@ -3046,6 +3046,16 @@ window.vs = {
     {
       "id": "morningstar",
       "name": "Morning Star",
+      "itemIds": [
+        "alchemywhip",
+        "windwhip",
+        "platinumwhip",
+        "dragonwater",
+        "sonicwhip",
+        "lemuria",
+        "holywhip",
+        "martialwhip"
+      ],
       "emoji": ":question:",
       "description": "Allows you to choose from a selection of magic whips.",
       "dlc5": true,
@@ -3054,6 +3064,28 @@ window.vs = {
     {
       "id": "coatofarms",
       "name": "Coat of Arms",
+      "itemIds": [
+        "whip",
+        "axe",
+        "knife",
+        "water",
+        "runetracer",
+        "bible",
+        "cross",
+        "lightning",
+        "bwaka",
+        "shuriken",
+        "javelinC",
+        "ironball",
+        "discus",
+        "gun",
+        "rpg",
+        "wineglass",
+        "savrogweapon",
+        "neutronweapon",
+        "hydrostorm",
+        "grandcross"
+      ],
       "emoji": ":question:",
       "description": "Allows you to choose from a selection of vampire-killing tools.",
       "dlc5": true,
@@ -3062,6 +3094,17 @@ window.vs = {
     {
       "id": "spellbook",
       "name": "Belnades' Spellbook",
+      "itemIds": [
+        "fire",
+        "ice",
+        "windC",
+        "earth",
+        "elec",
+        "acid",
+        "evil",
+        "holy",
+        "spirittornado"
+      ],
       "emoji": ":question:",
       "description": "Allows you to choose from a selection of spells.",
       "dlc5": true,
@@ -3070,6 +3113,20 @@ window.vs = {
     {
       "id": "spectralsword",
       "name": "Spectral Sword",
+      "itemIds": [
+        "alucardsword",
+        "slash",
+        "alucardspear",
+        "chauve",
+        "mace",
+        "starflail",
+        "shield",
+        "sacredbeasts",
+        "valmanway",
+        "icebrand",
+        "gothmissile",
+        "aurablastweapon"
+      ],
       "emoji": ":question:",
       "description": "Allows you to choose from a selection of magic weapons.",
       "dlc5": true,
@@ -3078,6 +3135,24 @@ window.vs = {
     {
       "id": "diabologue",
       "name": "Ebony Diabologue",
+      "itemIds": [
+        "confodere",
+        "spite",
+        "rapidus",
+        "light",
+        "dark",
+        "energy",
+        "custos1",
+        "custos2",
+        "custos3",
+        "dominus1",
+        "dominus2",
+        "dominus3",
+        "summonspirit",
+        "darkrift",
+        "swordbrothers",
+        "soulstealweapon"
+      ],
       "emoji": ":question:",
       "description": "Allows you to choose from a selection of ambiguous powers.",
       "dlc5": true,
@@ -3086,6 +3161,19 @@ window.vs = {
     {
       "id": "familiarforge",
       "name": "Familiar Forge",
+      "itemIds": [
+        "accfamiliarukoback",
+        "accfamiliarbitterfly",
+        "accfamiliarimp",
+        "accfamiliarallegedghost",
+        "accfamiliarwizard",
+        "accfamiliarfairy",
+        "accfamiliarpumpkin",
+        "accfamiliarcardinal",
+        "accfamiliardragon",
+        "accfamiliartiger",
+        "accfamiliarturtle"
+      ],
       "emoji": ":question:",
       "description": "Allows you to summon a familiar.",
       "dlc5": true,
@@ -4343,7 +4431,8 @@ window.vs = {
       "name": "-",
       "itemIds": [
         "light_",
-        "dark_"
+        "dark_",
+        "candybox"
       ],
       "emoji": ":question:",
       "dlc5": true,
