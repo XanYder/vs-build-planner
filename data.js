@@ -1593,7 +1593,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "",
       "itemIds": [
-        "rapidus"
+        "rapidus_"
       ],
       "special": true,
       "dlc5": true,
