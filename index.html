@@ -1474,66 +1474,61 @@
 
           const counterpartsWeapons = computed(() => {
             const counterparts = []
-            // cosmo's started weapons
-            if (selectedCharacter.value.id === 'cosmo') {
-              counterparts.push(itemsById.bird1, itemsById.bird2)
+
+            const { id, hiddenitemIds = [], itemIds = [] } = selectedCharacter.value
+
+            if (Array.isArray(hiddenitemIds) && hiddenitemIds.length > 0) {
+              hiddenitemIds.forEach(itemId => {
+                const item = itemsById[itemId]
+                if (item) {
+                  counterparts.push(item)
+                } else {
+                  console.warn(`Hidden item ID '${itemId}' not found in itemsById.`)
+                }
+              })
             }
-            // megamenya's started weapon
-            if (selectedCharacter.value.id === 'megamenya') {
-              counterparts.push(itemsById.bocce)
-            }
-            // scorej's started weapon
-            if (selectedCharacter.value.id === 'scorej') {
-              counterparts.push(itemsById.lightning)
-            }
-            // scorej's started weapon
-            if (selectedCharacter.value.id === 'jeneviv') {
-              counterparts.push(itemsById.insatiable)
-            }
-            // megasyuuto's hidden weapon
-            if (selectedCharacter.value.id === 'syuuto') {
-              counterparts.push(itemsById.muramasa)
-            }
-            // megaimpostor's started weapon
-            if (selectedCharacter.value.id === 'megaimpostor') {
-              counterparts.push(itemsById.tongue)
-            }
-            // sword's evolution
+
+            // Handle the sword and umbra+sol evolution
             if (itemsById.sword.evolved) {
               counterparts.push(itemsById.sword_)
             }
-            // arcana1's counterparts
+
+            if (itemsById.dark.evolved && itemsById.light.evolved) {
+              counterparts.push(itemsById.universitas)
+            }
+
+            // Handle arcana1's counterparts
             if (selectedIds.has('arcana1')) {
-              if (selectedIds.has('guns1')) {
-                counterparts.push(itemsById.guns3)
+              const arcanaMappings = {
+                guns1: 'guns3',
+                guns2: 'guns4',
+                bird1: 'bird3',
+                bird2: 'bird4',
+                cat: 'cat2',
+                popper: 'pooper',
+                servant: 'sliver',
+                tongue: 'tongue2',
+                javelin: 'javelin2',
+                lass: 'lass2',
+                energy: 'energy2',
+                fire: 'fire2',
+                ice: 'ice2',
+                earth: 'earth2',
+                windC: 'windC2',
+                elec: 'elec2',
+                acid: 'acid2',
+                holy: 'holy2',
+                evil: 'evil2'
               }
-              if (selectedIds.has('guns2')) {
-                counterparts.push(itemsById.guns4)
-              }
-              if (selectedIds.has('bird1') || selectedCharacter.value.id === 'cosmo') {
-                counterparts.push(itemsById.bird3)
-              }
-              if (selectedIds.has('bird2') || selectedCharacter.value.id === 'cosmo') {
-                counterparts.push(itemsById.bird4)
-              }
-              if (selectedIds.has('cat')) {
-                counterparts.push(itemsById.cat2)
-              }
-              if (selectedIds.has('popper')) {
-                counterparts.push(itemsById.pooper)
-              }
-              if (selectedIds.has('servant')) {
-                counterparts.push(itemsById.sliver)
-              }
-              if (selectedIds.has('tongue')) {
-                counterparts.push(itemsById.tongue2)
-              }
-              if (selectedIds.has('javelin')) {
-                counterparts.push(itemsById.javelin2)
-              }
-              if (selectedIds.has('lass')) {
-                counterparts.push(itemsById.lass2)
-              }
+
+              Object.keys(arcanaMappings).forEach(key => {
+                if (selectedIds.has(key) || (['bird1', 'bird2'].includes(key) && id === 'cosmo')) {
+                  const counterpartItem = itemsById[arcanaMappings[key]]
+                  if (counterpartItem) {
+                    counterparts.push(counterpartItem)
+                  }
+                }
+              })
             }
 
             return counterparts
@@ -1561,18 +1556,33 @@
           })
 
           const maxArcanas = computed(() => {
+            const { id, itemIds } = selectedCharacter.value
+
             if (selectedIds.has('darkana6')) {
               return 99
             }
-            switch (selectedCharacter.value.id) {
-              case 'sigma':
-                return 5
-              case 'avatar':
-                return 4
-              default:
-                return 3
+
+            const baseMaxMap = {
+              sigma: 5,
+              nathan: 5,
+              chaos: 99
             }
+
+            const baseMax = baseMaxMap[id] ?? 3
+
+            const arcanaBonus = itemIds.reduce((count, itemId) => {
+              const lowerItemId = itemId.toLowerCase()
+              if (lowerItemId.includes('arcana') || lowerItemId.includes('darkana')) {
+                return count + 1
+              }
+              return count
+            }, 0)
+
+            const limitedBonus = Math.min(arcanaBonus, 2)
+
+            return baseMax + limitedBonus
           })
+
 
           watch(maxArcanas, (newMax) => {
             for (const arcana of selectedArcanas.value.slice(newMax)) {

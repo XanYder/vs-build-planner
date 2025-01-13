@@ -401,6 +401,10 @@ window.vs = {
         "bird1",
         "bird2"
       ],
+      "hiddenitemIds": [
+        "bird1",
+        "bird2"
+      ],
       "special": true,
       "prefix": "",
       "surname": "Pavone",
@@ -546,6 +550,9 @@ window.vs = {
       "itemIds": [
         "lightning"
       ],
+      "hiddenitemIds": [
+        "lightning"
+      ],
       "special": true,
       "prefix": "",
       "surname": "",
@@ -636,6 +643,9 @@ window.vs = {
       "itemIds": [
         "bocce"
       ],
+      "hiddenitemIds": [
+        "bocce"
+      ],
       "dlc1": true,
       "prefix": "Megalo",
       "surname": "Moonspell",
@@ -648,6 +658,9 @@ window.vs = {
       "name": "Syuuto",
       "emoji": ":charMegaloSyuutoVS:",
       "itemIds": [
+        "muramasa"
+      ],
+      "hiddenitemIds": [
         "muramasa"
       ],
       "dlc1": true,
@@ -853,6 +866,9 @@ window.vs = {
       "itemIds": [
         "tongue"
       ],
+      "hiddenitemIds": [
+        "tongue"
+      ],
       "dlc3": true,
       "prefix": "Megalo",
       "surname": "Rina",
@@ -1034,7 +1050,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana X - Beginning. Gains +1 Amount every 10 levels (max +3). Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana10"
       ],
       "special": true,
       "dlc5": true,
@@ -1086,7 +1103,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana IX - Divine Bloodline.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana9"
       ],
       "special": true,
       "dlc5": true,
@@ -1099,7 +1117,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XIX - Heart of Fire. When Health is low, Might is increased. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana19"
       ],
       "special": true,
       "dlc5": true,
@@ -1229,7 +1248,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XIV - Jail of Crystal.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana14"
       ],
       "special": true,
       "dlc5": true,
@@ -1242,7 +1262,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana VI - Sarabande of Healing. Obtains a Heart Refresh every 2 levels. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana6"
       ],
       "special": true,
       "dlc5": true,
@@ -1255,7 +1276,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XI - Waltz of Pearls.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana11"
       ],
       "special": true,
       "dlc5": true,
@@ -1268,7 +1290,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana III - Tragic Princess. Activates any equipped lightning-themed weapon after walking a certain distance.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana3"
       ],
       "special": true,
       "dlc5": true,
@@ -1281,7 +1304,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana I - Gemini.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana1"
       ],
       "special": true,
       "dlc5": true,
@@ -1294,7 +1318,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana II - Twilight Requiem.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana2"
       ],
       "special": true,
       "dlc5": true,
@@ -1333,7 +1358,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XVI - Slash. Inflicts higher overall critical damage.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana16"
       ],
       "special": true,
       "dlc5": true,
@@ -1398,7 +1424,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Overhealing slightly increases Greed. Greed is doubled while Invulnerable. Starts with extra Arcana XV - Disco of Gold.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana15"
       ],
       "special": true,
       "dlc5": true,
@@ -1450,7 +1477,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +1 Growth every level. Starts with extra Arcana XX - Silent Old Sanctuary.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana20"
       ],
       "special": true,
       "dlc5": true,
@@ -1476,7 +1504,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains 0.002% Cooldown reduction per level. Starts with extra Arcana XII - Out of Bounds.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana12"
       ],
       "special": true,
       "dlc5": true,
@@ -1489,7 +1518,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana V - Awake. Obtains an extra choice of Arcana after surviving 7 and 14 minutes.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana4"
       ],
       "special": true,
       "dlc5": true,
@@ -1528,7 +1558,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Cannot be damaged, but disappears after reaching the current Time Limit. Always has a forced 4th level up option.",
       "itemIds": [
-        "familiarforge"
+        "candybox"
       ],
       "special": true,
       "dlc5": true,
@@ -1541,7 +1571,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gets more projectiles every 20 levels (max +3).",
       "itemIds": [
-        "holy"
+        "candybox"
       ],
       "special": true,
       "dlc5": true,
@@ -1554,7 +1584,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gets more projectiles every 20 levels (max +3).",
       "itemIds": [
-        "savrogweapon"
+        "candybox"
       ],
       "special": true,
       "dlc5": true,
@@ -1593,7 +1623,11 @@ window.vs = {
       "emoji": ":question:",
       "description": "",
       "itemIds": [
-        "rapidus_"
+        "rapidus_",
+        "arcana8"
+      ],
+      "hiddenitemIds": [
+        "dominus_"
       ],
       "special": true,
       "dlc5": true,
@@ -1606,7 +1640,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "rpg"
+        "rpg_"
       ],
       "special": true,
       "dlc5": true,
@@ -1658,7 +1692,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "wind"
+        "windC_"
       ],
       "special": true,
       "dlc5": true,
@@ -1671,7 +1705,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "ice"
+        "ice_"
       ],
       "special": true,
       "dlc5": true,
@@ -1684,7 +1718,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "wind"
+        "windC_"
       ],
       "special": true,
       "dlc5": true,
@@ -1697,7 +1731,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "ice"
+        "ice_"
       ],
       "special": true,
       "dlc5": true,
@@ -1710,7 +1744,8 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana21"
       ],
       "special": true,
       "dlc5": true,
@@ -1723,7 +1758,14 @@ window.vs = {
       "emoji": ":question:",
       "description": "Recently got into whips.",
       "itemIds": [
-        "lemuria"
+        "lemuria",
+        "holywhip",
+        "martialwhip"
+      ],
+      "hiddenitemIds": [
+        "lemuria",
+        "holywhip",
+        "martialwhip"
       ],
       "special": true,
       "dlc5": true,
@@ -1736,7 +1778,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Increases the base damage of every equipped fire-type weapon when levelling up.",
       "itemIds": [
-        "fire"
+        "fire_"
       ],
       "special": true,
       "dlc5": true,
@@ -1762,7 +1804,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Obtains a Karma Coin every 2 levels",
       "itemIds": [
-        "light"
+        "light_"
       ],
       "special": true,
       "dlc5": true,
@@ -1775,7 +1817,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "dark"
+        "dark_",
+        "arcana13"
       ],
       "special": true,
       "dlc5": true,
@@ -1788,7 +1831,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "slash"
+        "slash_"
       ],
       "special": true,
       "dlc5": true,
@@ -1801,7 +1844,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "energy"
+        "energy_"
       ],
       "special": true,
       "dlc5": true,
@@ -1815,6 +1858,9 @@ window.vs = {
       "description": ".",
       "itemIds": [
         "candybox"
+      ],
+      "hiddenitemIds": [
+        "dominus1"
       ],
       "special": true,
       "dlc5": true,
@@ -1853,7 +1899,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "He doesn't understand the game.",
       "itemIds": [
-        "candybox"
+        "candybox",
+        "arcana0"
       ],
       "special": true,
       "dlc5": true,
@@ -1892,7 +1939,8 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "evil"
+        "evil_",
+        "arcana18"
       ],
       "special": true,
       "dlc5": true,
@@ -1905,7 +1953,8 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "acid"
+        "acid_",
+        "arcana17"
       ],
       "special": true,
       "dlc5": true,
@@ -1931,7 +1980,8 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "summonspirit"
+        "summonspirit",
+        "arcana5"
       ],
       "special": true,
       "dlc5": true,
@@ -1945,6 +1995,10 @@ window.vs = {
       "description": "Has hidden weapons that grow stronger when levelling up. Flies.",
       "itemIds": [
         "candybox"
+      ],
+      "hiddenitemIds": [
+        "knife_",
+        "elec_"
       ],
       "special": true,
       "dlc5": true,
@@ -1970,7 +2024,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "",
       "itemIds": [
-        "elec"
+        "elec_"
       ],
       "special": true,
       "dlc5": true,
@@ -4044,14 +4098,14 @@ window.vs = {
     },
     {
       "id": "elec_",
-      "name": "Fulgur's Bellow",
+      "name": "Tenebris Tonitrus",
       "itemIds": [
         "elec",
         "amount"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Union of Thunder Loop and Tallhammer. Lightning strikes thrice, creates moving spheres of chain lightning.  ",
+      "description": "Evolved Fulgur. Also triggers ball lightnings.",
     },
     {
       "id": "acid_",
@@ -4409,7 +4463,7 @@ window.vs = {
       "dlc4": true
     },
     {
-      "id": "energy1counter",
+      "id": "energy2",
       "name": "Anti Globus",
       "emoji": ":question:",
       "description": "Fires two bouncing projectiles. Duration affected by Amount.",
@@ -4417,7 +4471,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "fire1counter",
+      "id": "fire2",
       "name": "Anti Raging Fire",
       "emoji": ":question:",
       "description": "Generates an exploding damaging zone.",
@@ -4425,7 +4479,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "ice1counter",
+      "id": "ice2",
       "name": "Anti Ice Fang",
       "emoji": ":question:",
       "description": "Generates damaging zones in a straight line.",
@@ -4433,7 +4487,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "earth1counter",
+      "id": "earth2",
       "name": "Anti Rock Riot",
       "emoji": ":question:",
       "description": "Fires projectiles from a fixed location.",
@@ -4441,7 +4495,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "wind1counter",
+      "id": "windC2",
       "name": "Anti Gale Force",
       "emoji": ":question:",
       "description": "Fires lingering projectiles.",
@@ -4449,7 +4503,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "elec1counter",
+      "id": "elec2",
       "name": "Anti Fulgur",
       "emoji": ":question:",
       "description": "Strikes at fixed locations.",
@@ -4457,7 +4511,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "acid1counter",
+      "id": "acid2",
       "name": "Speculo Acidic Bubbles",
       "emoji": ":question:",
       "description": "Fires slow moving damaging zones.",
@@ -4465,7 +4519,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "holy1counter",
+      "id": "holy2",
       "name": "Anti Refectio",
       "emoji": ":question:",
       "description": "Damages nearby enemies. Decreases Curse by 5% per Amount.",
@@ -4473,7 +4527,7 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "evil1counter",
+      "id": "evil2",
       "name": "Anti Hex",
       "emoji": ":question:",
       "description": "-",
