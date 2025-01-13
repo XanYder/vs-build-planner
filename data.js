@@ -1024,7 +1024,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Receives a hidden Svarog Statue at Level 5. Gets a bonus to most stats when Vampire Killer is equipped. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar",
       ],
       "special": true,
       "dlc5": true,
@@ -1037,7 +1037,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a temporary Cooldown reduction when overhealing by 8+. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar"
       ],
       "special": true,
       "dlc5": true,
@@ -1050,7 +1050,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana X - Beginning. Gains +1 Amount every 10 levels (max +3). Can find special pickups.",
       "itemIds": [
-        "candybox",
+        "morningstar",
         "arcana10"
       ],
       "special": true,
@@ -1064,7 +1064,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Greed can occasionally affect Might, Area, and Armor. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar"
       ],
       "special": true,
       "dlc5": true,
@@ -1077,7 +1077,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Growth can occasionally affect Might, Area, and Armor. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar"
       ],
       "special": true,
       "dlc5": true,
@@ -1090,7 +1090,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Can receive Spellnades'Spellbook as 4th level up option until Level 7. Every 6 levels automatically levels up any equipped spell from the Spellnades'Spellbook. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar",
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1103,7 +1104,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana IX - Divine Bloodline.",
       "itemIds": [
-        "candybox",
+        "morningstar",
         "arcana9"
       ],
       "special": true,
@@ -1117,7 +1118,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XIX - Heart of Fire. When Health is low, Might is increased. Can find special pickups.",
       "itemIds": [
-        "candybox",
+        "morningstar",
         "arcana19"
       ],
       "special": true,
@@ -1131,7 +1132,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Retaliates by triggering any equipped knives. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1144,7 +1145,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Charge ability affected by Might: attempts to safely detonate a Neutron Bomb.",
       "itemIds": [
-        "candybox"
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1157,7 +1158,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains an extra Arcana VII - Iron Blue Will at level 10. Obtains a Mirror of Truth every 5 levels.",
       "itemIds": [
-        "candybox"
+        "coatofarms",
+        "morningstar"
       ],
       "special": true,
       "dlc5": true,
@@ -1170,7 +1172,9 @@ window.vs = {
       "emoji": ":question:",
       "description": "Charge ability affected by Speed: triggers all equipped weapons from the Coat of Arms. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "morningstar",
+        "coatofarms",
+        "spectralsword"
       ],
       "special": true,
       "dlc5": true,
@@ -1183,7 +1187,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Overhealing slightly increases Speed. Might is greatly increased while Invulnerable.",
       "itemIds": [
-        "candybox"
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1196,7 +1200,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a bonus to Area and Luck depending on how many enemies are in sight.",
       "itemIds": [
-        "candybox"
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1222,7 +1226,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1235,7 +1239,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Charge ability affected by Growth: triggers all equipped weapons from the Belnades'Spellbook. Can find special pickups.",
       "itemIds": [
-        "candybox"
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1248,7 +1252,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XIV - Jail of Crystal.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana14"
       ],
       "special": true,
@@ -1262,7 +1266,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana VI - Sarabande of Healing. Obtains a Heart Refresh every 2 levels. Can find special pickups.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana6"
       ],
       "special": true,
@@ -1276,7 +1280,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XI - Waltz of Pearls.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana11"
       ],
       "special": true,
@@ -1290,7 +1294,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana III - Tragic Princess. Activates any equipped lightning-themed weapon after walking a certain distance.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana3"
       ],
       "special": true,
@@ -1304,7 +1308,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana I - Gemini.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana1"
       ],
       "special": true,
@@ -1318,7 +1322,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana II - Twilight Requiem.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana2"
       ],
       "special": true,
@@ -1332,7 +1336,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Increases enemies spawn quantity by 50. Immune to health drain. Reveals a demonic form after defeating a large amount of enemies.",
       "itemIds": [
-        "candybox"
+        "spellbook",
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1358,7 +1363,9 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana XVI - Slash. Inflicts higher overall critical damage.",
       "itemIds": [
-        "candybox",
+        "spectralsword",
+        "coatofarms",
+        "morningstar",
         "arcana16"
       ],
       "special": true,
@@ -1372,7 +1379,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
       "itemIds": [
-        "candybox"
+        "spectralsword",
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1385,7 +1393,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
       "itemIds": [
-        "candybox"
+        "spectralsword",
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1398,7 +1407,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a random Familiar as a follower every 10 levels (max 4).",
       "itemIds": [
-        "candybox"
+        "spectralsword",
+        "coatofarms"
       ],
       "special": true,
       "dlc5": true,
@@ -1411,7 +1421,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +0.02 Recovery every level. Once per life, triggers Firebreathing in any character. Evolves the Alchemy Whip when reviving.",
       "itemIds": [
-        "candybox"
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1424,7 +1434,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Overhealing slightly increases Greed. Greed is doubled while Invulnerable. Starts with extra Arcana XV - Disco of Gold.",
       "itemIds": [
-        "candybox",
+        "coatofarms",
         "arcana15"
       ],
       "special": true,
@@ -1438,7 +1448,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a follower every 10 levels starting from level 2. Overhealing slightly increases Might. Overhealing by +32 temporarily boosts all current followers.",
       "itemIds": [
-        "candybox"
+        "spectralsword",
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1464,7 +1475,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains a bonus to Might and Cooldown depending on how many enemies are in sight.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1477,7 +1488,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +1 Growth every level. Starts with extra Arcana XX - Silent Old Sanctuary.",
       "itemIds": [
-        "candybox",
+        "spellbook",
         "arcana20"
       ],
       "special": true,
@@ -1491,7 +1502,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +1% Curse every level. Becomes invincible and deals damage to nearby enemies for 20 seconds when health reaches a critically low level.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1504,7 +1515,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains 0.002% Cooldown reduction per level. Starts with extra Arcana XII - Out of Bounds.",
       "itemIds": [
-        "candybox",
+        "spectralsword",
+        "diabologue",
         "arcana12"
       ],
       "special": true,
@@ -1518,7 +1530,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Starts with extra Arcana V - Awake. Obtains an extra choice of Arcana after surviving 7 and 14 minutes.",
       "itemIds": [
-        "candybox",
+        "morningstar",
+        "spellbook",
         "arcana4"
       ],
       "special": true,
@@ -1532,7 +1545,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Morphs into a stronger version when equipped with Trinum Custodem.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1545,7 +1558,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Overhealing slightly increases Might and Curse. Might receive Ebony Diabologue as 4th level up option until Level 11.",
       "itemIds": [
-        "candybox"
+        "diabologue",
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1558,7 +1572,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Cannot be damaged, but disappears after reaching the current Time Limit. Always has a forced 4th level up option.",
       "itemIds": [
-        "candybox"
+        "familiarforge"
       ],
       "special": true,
       "dlc5": true,
@@ -1597,7 +1611,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1609,9 +1623,7 @@ window.vs = {
       "name": "Ferryman",
       "emoji": ":question:",
       "description": "Water included.",
-      "itemIds": [
-        "candybox"
-      ],
+      "itemIds": [],
       "special": true,
       "dlc5": true,
       "surname": "",
@@ -1666,7 +1678,9 @@ window.vs = {
       "emoji": ":question:",
       "description": "Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte!",
       "itemIds": [
-        "candybox"
+        "morningstar",
+        "coatofarms",
+        "spectralsword"
       ],
       "special": true,
       "dlc5": true,
@@ -1679,7 +1693,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "-",
       "itemIds": [
-        "candybox"
+        "spellbook"
       ],
       "special": true,
       "dlc5": true,
@@ -1744,7 +1758,7 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "candybox",
+        "diabologue",
         "arcana21"
       ],
       "special": true,
@@ -1791,7 +1805,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gets a hidden clone of the latest equipped weapon or evolution.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -1856,9 +1870,7 @@ window.vs = {
       "name": "Carmilla",
       "emoji": ":question:",
       "description": ".",
-      "itemIds": [
-        "candybox"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "dominus1"
       ],
@@ -1899,7 +1911,6 @@ window.vs = {
       "emoji": ":question:",
       "description": "He doesn't understand the game.",
       "itemIds": [
-        "candybox",
         "arcana0"
       ],
       "special": true,
@@ -1993,9 +2004,7 @@ window.vs = {
       "name": "Malphas",
       "emoji": ":question:",
       "description": "Has hidden weapons that grow stronger when levelling up. Flies.",
-      "itemIds": [
-        "candybox"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "knife_",
         "elec_"
@@ -2037,7 +2046,8 @@ window.vs = {
       "emoji": ":question:",
       "description": "Increases enemies spawn quantity by 50. Immune to health drain.",
       "itemIds": [
-        "candybox"
+        "spellbook",
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -2050,7 +2060,7 @@ window.vs = {
       "emoji": ":question:",
       "description": ".",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -2063,7 +2073,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Doesn't appreciate getting blasphemously mockered.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
@@ -2076,7 +2086,7 @@ window.vs = {
       "emoji": ":question:",
       "description": "Gains +1% Might every level and +1 Revival every 100 levels. Curse increases Might. Incoming damage capped at 10. Immune to health drain.",
       "itemIds": [
-        "candybox"
+        "diabologue"
       ],
       "special": true,
       "dlc5": true,
