@@ -650,10 +650,7 @@ window.vs = {
       "id": "megasyuuto",
       "name": "Syuuto",
       "emoji": ":charMegaloSyuutoVS:",
-      "itemIds": [],
-      "hiddenitemIds": [
-        "muramasa"
-      ],
+      "itemIds": ["muramasa"],
       "dlc1": true,
       "prefix": "Megalo",
       "surname": "Moonspell",
