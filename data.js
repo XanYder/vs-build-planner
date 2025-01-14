@@ -397,10 +397,7 @@ window.vs = {
       "id": "cosmo",
       "name": "Cosmo",
       "emoji": ":animCosmoPavoneVS:",
-      "itemIds": [
-        "bird1",
-        "bird2"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "bird1",
         "bird2"
@@ -547,9 +544,7 @@ window.vs = {
       "id": "scorej",
       "name": "Scorej-Oni",
       "emoji": ":charScorejOniVS:",
-      "itemIds": [
-        "lightning"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "lightning"
       ],
@@ -640,9 +635,7 @@ window.vs = {
       "id": "megamenya",
       "name": "Menya",
       "emoji": ":charMegaloMenyaVS:",
-      "itemIds": [
-        "bocce"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "bocce"
       ],
@@ -657,9 +650,7 @@ window.vs = {
       "id": "megasyuuto",
       "name": "Syuuto",
       "emoji": ":charMegaloSyuutoVS:",
-      "itemIds": [
-        "muramasa"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "muramasa"
       ],
@@ -863,9 +854,7 @@ window.vs = {
       "id": "megaimpostor",
       "name": "Impostor",
       "emoji": ":question:",
-      "itemIds": [
-        "tongue"
-      ],
+      "itemIds": [],
       "hiddenitemIds": [
         "tongue"
       ],

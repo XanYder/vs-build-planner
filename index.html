@@ -302,6 +302,9 @@
         height: 3em;
         background-position: bottom center;
       }
+      .object.character .items > .icon-hiddenItem {
+        opacity: 0.5;
+      }
       .object.weapon > .icon,
       .object.evolution > .icon,
       .object.passive > .icon {
@@ -612,7 +615,13 @@
               <div v-for="character in visibleCharacters" :data-id="character.id" class="object character" :class="{selected: selectedCharacter.id === character.id, special: character.special, dlc1: character.dlc1, dlc2: character.dlc2, dlc3: character.dlc3, dlc4: character.dlc4, dlc5: character.dlc5}" :title="character.title" @click="toggleItem(character)" @mouseenter="onMouseEnter(character)" @mouseleave="onMouseLeave(character)">
                 <div class="icon" :class="`icon-${character.id}`"></div>
                 <div class="items">
-                  <div v-for="item in character.items" class="icon" :class="`icon-${item.id}`" :title="item.title"></div>
+                  <template v-if="character.items.length === 0 && character.hiddenitemIds && character.hiddenitemIds.length > 0">
+                    <div v-for="hiddenItemId in character.hiddenitemIds" class="icon icon-hiddenItem" :class="`icon-${hiddenItemId}`" :title="itemsById[hiddenItemId]?.title"></div>
+                  </template>
+                  <template v-else>
+                    <div v-for="item in character.items" class="icon" :class="`icon-${item.id}`" :title="item.title"></div>
+                    <div v-for="hiddenItemId in character.hiddenitemIds" v-if="!character.items.some(item => item.id === hiddenItemId)" class="icon icon-hiddenItem" :class="`icon-${hiddenItemId}`" :title="itemsById[hiddenItemId]?.title"></div>
+                  </template>
                 </div>
                 <div v-if="config.titles" class="title">{{character.id}}</div>
               </div>
@@ -1564,7 +1573,7 @@
 
             const baseMaxMap = {
               sigma: 5,
-              nathan: 5,
+              nathan: 4,
               chaos: 99
             }
 
@@ -1621,6 +1630,7 @@
           watch(
             selectedCharacter,
             (newCharacter, oldCharacter) => {
+              const { itemIds = [], hiddenitemIds = [] } = newCharacter;
               // delete items of the previous character
               if (oldCharacter) {
                 if (oldCharacter.id === 'sigma') {
@@ -1629,8 +1639,11 @@
                   }
                 }
                 for (const itemId of oldCharacter.itemIds) {
-                  if (itemsById[itemId].type === 'weapon') {
-                    unselectId(itemId)
+                  if (itemsById[itemId].type === 'weapon' || itemsById[itemId].type === 'arcana' || itemsById[itemId].type === 'passive') {
+                    selectedIds.delete(itemId);
+                  }
+                  if (itemsById[itemId].type === 'arcana') {
+                    selectedIds.delete(itemId);
                   }
                 }
               }
@@ -1638,9 +1651,10 @@
               if (newCharacter.id === 'cosmo' || newCharacter.id === 'megamenya' || newCharacter.id === 'scorej' || newCharacter.id === 'megaimpostor') {
                 return
               }
+
               // add items of the new character
               for (const itemId of newCharacter.itemIds) {
-                if (itemsById[itemId].type === 'weapon' || itemsById[itemId].type === 'passive') {
+                if (itemsById[itemId].type === 'weapon' || itemsById[itemId].type === 'passive' || itemsById[itemId].type === 'arcana') {
                   selectId(itemId)
                 }
               }
