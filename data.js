@@ -1745,7 +1745,7 @@ window.vs = {
       "id": "brauner",
       "name": "Brauner",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Starts with extra Arcana XXI - Blood Astronomia. Immune to health drain.",
       "itemIds": [
         "diabologue",
         "arcana21"
@@ -1858,7 +1858,7 @@ window.vs = {
       "id": "carmilla",
       "name": "Carmilla",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Charge ability affected by Curse: triggers all equipped Dominus weapons. Immune to health drain. Can fly.",
       "itemIds": [],
       "hiddenitemIds": [
         "dominus1"
@@ -1872,7 +1872,7 @@ window.vs = {
       "id": "olrox",
       "name": "Olrox",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Count on him to change halfway through the dinner.",
       "itemIds": [
         "darkrift"
       ],
@@ -1940,7 +1940,7 @@ window.vs = {
       "id": "succubus",
       "name": "Succubus",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Starts with extra Arcana XVIII - Boogaloo of Illusions.",
       "itemIds": [
         "evil_",
         "arcana18"
@@ -1954,7 +1954,7 @@ window.vs = {
       "id": "keremet",
       "name": "Keremet",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Starts with extra Arcana XVII - Lost & Found Painting. Triggers Keremet Morbus when overhealing by +8.",
       "itemIds": [
         "acid_",
         "arcana17"
@@ -1981,7 +1981,7 @@ window.vs = {
       "id": "blackmore",
       "name": "Blackmore",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Can choose a per-level bonus after defeating a set amount of enemies (max 5 times).",
       "itemIds": [
         "summonspirit",
         "arcana5"
@@ -2050,7 +2050,7 @@ window.vs = {
       "id": "olrox_mega",
       "name": "Olrox",
       "emoji": ":question:",
-      "description": ".",
+      "description": "Count on him to change halfway through dinner.",
       "itemIds": [
         "diabologue"
       ],
