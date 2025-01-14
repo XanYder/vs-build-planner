@@ -1598,7 +1598,7 @@ window.vs = {
       "id": "cornell_bcm",
       "name": "Cornell",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Gains +1% Might every level. ",
       "itemIds": [
         "diabologue"
       ],
@@ -1639,7 +1639,7 @@ window.vs = {
       "id": "hammer",
       "name": "Hammer",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Gets more projectiles every 20 levels (Max +3). Amount is doubled while invulnerable.",
       "itemIds": [
         "rpg_"
       ],
@@ -1652,7 +1652,7 @@ window.vs = {
       "id": "windch",
       "name": "Wind",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Retaliates with Aura Blast. Triggers Aura Blast and a random equipped weapon from the Coat of Arms when overhealing by +8.",
       "itemIds": [
         "aurablastweapon"
       ],
@@ -1680,7 +1680,7 @@ window.vs = {
       "id": "charlotte_and_jonathan",
       "name": "Charlotte & Jonathan",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan! Charlotte! Jonathan!",
       "itemIds": [
         "spellbook"
       ],
@@ -1693,7 +1693,7 @@ window.vs = {
       "id": "stella_and_loretta",
       "name": "Stella & Loretta",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Immune to health drain.",
       "itemIds": [
         "windC_"
       ],
@@ -1706,7 +1706,7 @@ window.vs = {
       "id": "loretta_and_stella",
       "name": "Loretta & Stella",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Immune to health drain.",
       "itemIds": [
         "ice_"
       ],
@@ -1719,7 +1719,7 @@ window.vs = {
       "id": "stella",
       "name": "Stella",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Immune to health drain.",
       "itemIds": [
         "windC_"
       ],
@@ -1732,7 +1732,7 @@ window.vs = {
       "id": "loretta",
       "name": "Loretta",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Immune to health drain.",
       "itemIds": [
         "ice_"
       ],
@@ -1818,7 +1818,7 @@ window.vs = {
       "id": "graham",
       "name": "Graham",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Starts with extra Arcana XIII - Wicked Season. Immune to health drain.",
       "itemIds": [
         "dark_",
         "arcana13"
@@ -1832,7 +1832,7 @@ window.vs = {
       "id": "joachim",
       "name": "Joachim",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Immune to health drain. Can choose a per-level bonus.",
       "itemIds": [
         "slash_"
       ],
@@ -1845,7 +1845,7 @@ window.vs = {
       "id": "walter",
       "name": "Walter",
       "emoji": ":question:",
-      "description": "-",
+      "description": "Triggers a random equipped weapon from the Ebony Diabologue when overhealing by +8. Immune to health drain.",
       "itemIds": [
         "energy_"
       ],
@@ -3967,462 +3967,462 @@ window.vs = {
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Alchemy Whip. Every 3rd activation fires additional projectiles. Intense sunlught incinerates boss enemies."
     },
     {
       "id": "windwhip_",
-      "name": "-",
+      "name": "Spirit Tornado Tip",
       "itemIds": [
-        "windwhip",
-        "growth"
+          "windwhip",
+          "growth"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Wind Whip. Every 7th activation summons a spirit that violently collects XP gems for you."
     },
     {
       "id": "platinumwhip_",
-      "name": "-",
+      "name": "Cross Crasher Tip",
       "itemIds": [
-        "platinumwhip",
-        "luck"
+          "platinumwhip",
+          "luck"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Platinum Whip. Every 7th activation also fires special projectiles."
     },
     {
       "id": "dragonwater_",
-      "name": "-",
+      "name": "Hydrostormer Tip",
       "itemIds": [
-        "dragonwater",
-        "magnet"
+          "dragonwater",
+          "magnet"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Dragon Water Whip. Every 13th activation generates damaging waves based on Projectile Speed and Duration."
     },
     {
       "id": "sonicwhip_",
-      "name": "-",
+      "name": "Crissaegrim Tip",
       "itemIds": [
-        "sonicwhip",
-        "curse"
+          "sonicwhip",
+          "curse"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Sonic Whip. Every 5th activation also triggers a blast of damaging waves."
     },
     {
       "id": "lemuria_",
-      "name": "-",
+      "name": "Mormegil Tip",
       "itemIds": [
-        "lemuria",
-        "greed"
+          "lemuria",
+          "greed"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Jet Black Whip. Every 8th activation also triggers damaging zones."
     },
     {
       "id": "holywhip_",
-      "name": "-",
+      "name": "Daybreaker Tip",
       "itemIds": [
-        "holywhip",
-        "area"
+          "holywhip",
+          "area"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Vibhuti Whip. Critical hits maximise amount of projectiles."
     },
     {
       "id": "martialwhip_",
-      "name": "-",
+      "name": "Aurablaster Tip",
       "itemIds": [
-        "martialwhip",
-        "health"
+          "martialwhip",
+          "health"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Vanitas Whip. Every 7th activation generates an explosion."
     },
     {
       "id": "shuriken_",
-      "name": "-",
+      "name": "Yagyu Shuriken",
       "itemIds": [
-        "shuriken",
-        "cooldown"
+          "shuriken",
+          "cooldown"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Shuriken. Fires with no delay."
     },
     {
       "id": "bwaka_",
       "name": "Bwaka Knife",
       "itemIds": [
-        "bwaka",
-        "speed"
+          "bwaka",
+          "speed"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Curved Knife. Projectiles bounce forever until Duration expires."
     },
     {
       "id": "javelinC_",
-      "name": "Alucard Spear",
+      "name": "Long Inus",
       "itemIds": [
-        "javelinC",
-        "duration"
+          "javelinC",
+          "duration"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolved Spear. Fires a constant flurry of spears. Changing horizontal direction triggers a spin attack. ",
+      "description": "Evolved Javelin. Projectiles reappear after leaving the screen."
     },
     {
       "id": "discus_",
-      "name": "-",
+      "name": "Stellar Blade",
       "itemIds": [
-        "discus",
-        "parma"
+          "discus",
+          "parma"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Discus. Travels along walls. Deals critical damage if the user is invulnerable."
     },
     {
       "id": "ironball_",
-      "name": "Wrecking Bawl",
+      "name": "Wrecking Ball",
       "itemIds": [
-        "ironball",
-        "armor"
+          "ironball",
+          "armor"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolved Iron Ball. Powerful damaging ball spins based on movement. ",
+      "description": "Evolved Iron Ball. Fires a very heavy projectile."
     },
     {
       "id": "gun_",
-      "name": "-",
+      "name": "Jewel Gun",
       "itemIds": [
-        "gun",
-        "dominion"
+          "gun",
+          "dominion"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Silver Revolver. Critical hits instantly kill enemies and turn them into Jewels."
     },
     {
       "id": "rpg_",
-      "name": "-",
+      "name": "The RPG",
       "itemIds": [
-        "rpg",
-        "area"
+          "rpg",
+          "area"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Hand Grenade. Explosions propagate."
     },
     {
       "id": "wineglass_",
-      "name": "-",
+      "name": "Meal Ticket",
       "itemIds": [
-        "wineglass",
-        "revival"
+          "wineglass",
+          "revival"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Wine Glass. Soulful food deals Revival-based damage to unrefined palates."
     },
     {
       "id": "fire_",
       "name": "Salamender",
       "itemIds": [
-        "fire",
-        "might"
+          "fire",
+          "might"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Raging Fire. Also summons a snake of fire."
     },
     {
       "id": "ice_",
       "name": "Cocytus",
       "itemIds": [
-        "ice",
-        "duration"
+          "ice",
+          "duration"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": ".",
+      "description": "Evolved Ice Fang. Also triggers a freezing wind."
     },
     {
       "id": "windC_",
-      "name": "Pneuma Pneuma",
+      "name": "Pneuma Tempestas",
       "itemIds": [
-        "windC",
-        "speed"
+          "windC",
+          "speed"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": ".",
+      "description": "Evolved Gale Force. Also triggers a spinning tornado."
     },
     {
       "id": "earth_",
       "name": "Gemma Torpor",
       "itemIds": [
-        "earth",
-        "greed"
+          "earth",
+          "greed"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Drops rocks from above. Rocks turn into static damaging crystals.",
+      "description": "Evolved Rock Riot. Also triggers a rain of crystals that can turn enemies into valuable jewels."
     },
     {
       "id": "elec_",
       "name": "Tenebris Tonitrus",
       "itemIds": [
-        "elec",
-        "amount"
+          "elec",
+          "amount"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolved Fulgur. Also triggers ball lightnings.",
+      "description": "Evolved Fulgur. Also triggers ball lightnings."
     },
     {
       "id": "acid_",
-      "name": "-",
+      "name": "Keremet Morbus",
       "itemIds": [
-        "acid",
-        "armor"
+          "acid",
+          "armor"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Keremet Bubbles. Also triggers a slimy swarm that chases enemies down."
     },
     {
       "id": "evil_",
-      "name": "-",
+      "name": "Nightmare",
       "itemIds": [
-        "evil",
-        "curse"
+          "evil",
+          "curse"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Hex. Also tirggers a negative energy zone that doubles Curse when stepped into."
     },
     {
       "id": "holy_",
-      "name": "-",
+      "name": "Sanctuary",
       "itemIds": [
-        "holy",
-        "luck"
+          "holy",
+          "luck"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Refectio. At fixed intervals, also fully heals characters and purifies all enemies in sight."
     },
     {
       "id": "mace_",
-      "name": "Tallhammer",
+      "name": "Stamazza",
       "itemIds": [
-        "mace",
-        "health"
+          "mace",
+          "health"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolved Mace. Enemies struck may trigger areas of chain lightning. ",
+      "description": "Evolved Mace. Has a catastrophically high critical damage multiplier."
     },
     {
       "id": "starflail_",
-      "name": "-",
+      "name": "Moon Rod",
       "itemIds": [
-        "starflail",
-        "recovery"
+          "starflail",
+          "recovery"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Star Flail. Projectiles are shot in the faced direction."
     },
     {
       "id": "alucardspear_",
-      "name": "Aero Slice",
+      "name": "Thunderbolt Spear",
       "itemIds": [
-        "alucardspear",
-        "wings"
+          "alucardspear",
+          "wings"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "- ",
+      "description": "Evolved Alucard Spear. Every 7th activation triggers a special attack based on speed."
     },
     {
       "id": "chauve_",
-      "name": "Chauve-souris",
+      "name": "Gungnir-Souris",
       "itemIds": [
-        "chauve",
-        "amount"
+          "chauve",
+          "amount"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Trident. Critical hits also fire a damaging beam."
     },
     {
       "id": "shield_",
-      "name": "Dark Shield",
+      "name": "Dark Iron Shield",
       "itemIds": [
-        "shield",
-        "parma"
+          "shield",
+          "parma"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Iron Shield. Critical hits retaliate with spinning swords."
     },
     {
       "id": "sacredbeasts_",
-      "name": "Sacred Targe",
+      "name": "Sacred Beasts Tower Shield",
       "itemIds": [
-        "sacredbeasts",
-        "recovery"
+          "sacredbeasts",
+          "recovery"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolution of Guardian Targe. Overhealing by 32+ also triggers a period of invulnerability.",
+      "description": "Evolved Guardian's Targe. Overhealing also triggers a period of invulnerability."
     },
     {
       "id": "slash_",
-      "name": "-",
+      "name": "Rune Sword",
       "itemIds": [
-        "slash",
-        "might"
+          "slash",
+          "might"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Tyrfing. Critical damage also affected by Area, Speed, and Duration."
     },
     {
       "id": "alucardsword_",
-      "name": "Alucard Sword",
+      "name": "Alucard Swords",
       "itemIds": [
-        "alucardsword"
+          "alucardsword"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Alucart Sworb. Apparitions of the sword's true bearer seek out enemies."
     },
     {
       "id": "alucardshield_",
       "name": "Alucard Shield",
       "itemIds": [
-        "alucardsword_"
+          "alucardsword_"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Gift of Alucard Swords. Absorbs and triggers all other equipped evolutions. Hovering shield damages enemies.",
     },
     {
       "id": "confodere_",
       "name": "Vol Confodere",
       "itemIds": [
-        "confodere"
+          "confodere"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Attack nearby enemies. Speed affects Damage."
     },
     {
       "id": "confodere__",
       "name": "Melio Confodere",
       "itemIds": [
-        "confodere_"
+          "confodere_"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Attack nearby enemies. Speed affects Cooldown and Damage."
     },
     {
       "id": "energy_",
       "name": "Nitesco",
       "itemIds": [
-        "energy",
-        "cooldown"
+          "energy",
+          "cooldown"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Globus. Fires a piercing energy beam in the faced direction."
     },
     {
       "id": "spite_",
       "name": "Acerbatus",
       "itemIds": [
-        "spite",
-        "dominion"
+          "spite",
+          "dominion"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Optical Shot. Damage is affected by the amount of defeated enemies."
     },
     {
       "id": "custos_",
       "name": "Trinum Custodem",
       "itemIds": [
-        "custos1",
-        "custos2",
-        "custos3"
+          "custos1",
+          "custos2",
+          "custos3"
       ],
       "special": true,
       "emoji": ":question:",
-      "dlc5": true,
-      "description": "Union of Dextros, Sinistro, and Arma Custos.",
+        "dlc5": true,
+        "description": "Union of Dextros, Sinistro, and Arma Custos."
     },
     {
       "id": "dominus_",
-      "name": "-",
+      "name": "Power of Sire",
       "itemIds": [
-        "dominus1",
-        "dominus2",
-        "dominus3"
+          "dominus1",
+          "dominus2",
+          "dominus3"
       ],
       "special": true,
       "emoji": ":question:",
-      "dlc5": true,
-      "description": "-",
+        "dlc5": true,
+        "description": "Union of Dominus Anger, Dominus Hatred and Dominus Agony. Deals critical damage to anything in sight. Drains health."
     },
     {
       "id": "rapidus_",
       "name": "Rapidus Fio",
       "itemIds": [
-        "rapidus",
-        "wings"
+          "rapidus",
+          "wings"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "Evolved Sonic Dash. Also provides a Shield when firing.",
+      "description": "Evolved Sonic Dash. Also triggers a single shield charge."
     },
     {
       "id": "light_",
-      "name": "-",
+      "name": "Vol Luminatio",
       "itemIds": [
-        "light",
-        "growth"
+          "light",
+          "growth"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Luminatio. Damage, Speed, Area, and Duration affected by Growth."
     },
     {
       "id": "dark_",
-      "name": "-",
+      "name": "Vol Umbra",
       "itemIds": [
-        "dark",
-        "magnet"
+          "dark",
+          "magnet"
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Evolved Umbra. Damage, Speed, Area, and Duration affected by Magnet."
     },
     {
       "id": "universitas",
-      "name": "-",
+      "name": "Universitas",
       "itemIds": [
         "light_",
         "dark_",
@@ -4430,7 +4430,7 @@ window.vs = {
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Gift of Vol Luminatio and Vol Umbra. Meteors rain down on enemies at fixed intervals.",
     },
     {
       "id": "clocktower_weapon",
@@ -4443,7 +4443,7 @@ window.vs = {
       ],
       "emoji": ":question:",
       "dlc5": true,
-      "description": "-",
+      "description": "Union of Endo Gears, Peri Pendulum, Myo Lift, and Epi Heads.",
     }
   ],
   "counterparts": [
