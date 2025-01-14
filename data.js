@@ -599,6 +599,9 @@ window.vs = {
       "itemIds": [
         "night"
       ],
+      hiddenitemIds: [
+        "muramasa"
+      ],
       "dlc1": true,
       "surname": "Moonspell",
       "description": "Starts with hidden Night Sword. Morphs into a stronger version when his base weapon evolves.",
@@ -1910,6 +1913,9 @@ window.vs = {
       "emoji": ":question:",
       "description": "Six axes axe axes as axes axe.",
       "itemIds": [
+        "axe"
+      ],
+      hiddenitemIds: [
         "axe"
       ],
       "special": true,
