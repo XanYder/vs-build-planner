@@ -608,22 +608,80 @@
         </div>
 
         <!-- Characters -->
-        <h2 @click="collapsedSections.characters = !collapsedSections.characters"><small :style="{transform: collapsedSections.characters ? 'none' : 'rotate(90deg)'}">►</small> Characters</h2>
+        <h2 @click="collapsedSections.characters = !collapsedSections.characters">
+          <small :style="{ transform: collapsedSections.characters ? 'none' : 'rotate(90deg)' }">►</small> 
+          Characters
+        </h2>
         <Transition name="slidedown">
           <section v-if="!collapsedSections.characters" style="max-width: 75em">
             <div class="objects">
-              <div v-for="character in visibleCharacters" :data-id="character.id" class="object character" :class="{selected: selectedCharacter.id === character.id, special: character.special, dlc1: character.dlc1, dlc2: character.dlc2, dlc3: character.dlc3, dlc4: character.dlc4, dlc5: character.dlc5}" :title="character.title" @click="toggleItem(character)" @mouseenter="onMouseEnter(character)" @mouseleave="onMouseLeave(character)">
+              <div 
+                v-for="character in visibleCharacters" 
+                :key="character.id"
+                :data-id="character.id" 
+                class="object character" 
+                :class="{
+                  selected: selectedCharacter.id === character.id, 
+                  special: character.special, 
+                  dlc1: character.dlc1, 
+                  dlc2: character.dlc2, 
+                  dlc3: character.dlc3, 
+                  dlc4: character.dlc4, 
+                  dlc5: character.dlc5
+                }" 
+                :title="character.title" 
+                @click="toggleItem(character)" 
+                @mouseenter="onMouseEnter(character)" 
+                @mouseleave="onMouseLeave(character)"
+              >
                 <div class="icon" :class="`icon-${character.id}`"></div>
                 <div class="items">
                   <template v-if="character.items.length === 0 && character.hiddenitemIds && character.hiddenitemIds.length > 0">
-                    <div v-for="hiddenItemId in character.hiddenitemIds" class="icon icon-hiddenItem" :class="`icon-${hiddenItemId}`" :title="itemsById[hiddenItemId]?.title"></div>
+                    <div 
+                      v-for="hiddenItemId in character.hiddenitemIds" 
+                      :key="hiddenItemId" 
+                      class="icon icon-hiddenItem" 
+                      :class="`icon-${hiddenItemId}`" 
+                      :title="itemsById[hiddenItemId]?.title"
+                    ></div>
+                  </template>
+                  <template v-else-if="character.items.every(item => item.id.includes('arcana') || item.id.includes('darkana')) && character.hiddenitemIds && character.hiddenitemIds.length > 0">
+                    <div 
+                      v-for="hiddenItemId in character.hiddenitemIds" 
+                      :key="hiddenItemId" 
+                      class="icon icon-hiddenItem" 
+                      :class="`icon-${hiddenItemId}`" 
+                      :title="itemsById[hiddenItemId]?.title"
+                    ></div>
+                    <div 
+                      v-for="item in character.items" 
+                      :key="item.id" 
+                      class="icon" 
+                      :class="`icon-${item.id}`" 
+                      :title="item.title"
+                    ></div>
                   </template>
                   <template v-else>
-                    <div v-for="item in character.items" class="icon" :class="`icon-${item.id}`" :title="item.title"></div>
-                    <div v-for="hiddenItemId in character.hiddenitemIds" v-if="!character.items.some(item => item.id === hiddenItemId)" class="icon icon-hiddenItem" :class="`icon-${hiddenItemId}`" :title="itemsById[hiddenItemId]?.title"></div>
+                    <div 
+                      v-for="item in character.items" 
+                      :key="item.id" 
+                      class="icon" 
+                      :class="`icon-${item.id}`" 
+                      :title="item.title"
+                    ></div>
+                  </template>
+
+                  <template v-if="character.items && character.items.length > 0 && character.hiddenitemIds && character.hiddenitemIds.length > 0">
+                    <div 
+                      v-for="hiddenItemId in character.hiddenitemIds.filter(id => id && !character.items.some(item => item.id === id))" 
+                      :key="'additional-' + hiddenItemId" 
+                      class="icon icon-hiddenItem" 
+                      :class="`icon-${hiddenItemId}`" 
+                      :title="itemsById[hiddenItemId]?.title"
+                    ></div>
                   </template>
                 </div>
-                <div v-if="config.titles" class="title">{{character.id}}</div>
+                <div v-if="config.titles" class="title">{{ character.id }}</div>
               </div>
             </div>
           </section>
@@ -2024,22 +2082,5 @@
       }).mount('#app')
     </script>
 
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-      ;(function (m, e, t, r, i, k, a) {
-        m[i] =
-          m[i] ||
-          function () {
-            ;(m[i].a = m[i].a || []).push(arguments)
-          }
-        m[i].l = 1 * new Date()
-        ;(k = e.createElement(t)), (a = e.getElementsByTagName(t)[0]), (k.async = 1), (k.src = r), a.parentNode.insertBefore(k, a)
-      })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym')
-      ym(88260279, 'init', { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true })
-    </script>
-    <noscript>
-      <div><img src="https://mc.yandex.ru/watch/88260279" style="position: absolute; left: -9999px" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
   </body>
 </html>
