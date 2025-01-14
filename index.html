@@ -1698,17 +1698,14 @@
                 }
                 for (const itemId of oldCharacter.itemIds) {
                   if (itemsById[itemId].type === 'weapon' || itemsById[itemId].type === 'arcana' || itemsById[itemId].type === 'passive') {
-                    selectedIds.delete(itemId);
-                  }
-                  if (itemsById[itemId].type === 'arcana') {
-                    selectedIds.delete(itemId);
+                    unselectId(itemId);
                   }
                 }
               }
-              // do not add special "passive" weapons
-              if (newCharacter.id === 'cosmo' || newCharacter.id === 'megamenya' || newCharacter.id === 'scorej' || newCharacter.id === 'megaimpostor') {
-                return
-              }
+              // // do not add special "passive" weapons
+              // if (newCharacter.id === 'cosmo' || newCharacter.id === 'megamenya' || newCharacter.id === 'scorej' || newCharacter.id === 'megaimpostor') {
+              //   return
+              // }
 
               // add items of the new character
               for (const itemId of newCharacter.itemIds) {

@@ -3003,14 +3003,6 @@ window.vs = {
       "rarity": 60
     },
     {
-      "id": "valmanway",
-      "name": "Valmanway",
-      "emoji": ":question:",
-      "description": "Stronger with movement.",
-      "dlc5": true,
-      "rarity": 20
-    },
-    {
       "id": "gearsweapon",
       "name": "Endo Gears",
       "emoji": ":question:",
