@@ -1627,9 +1627,7 @@ window.vs = {
         "rapidus_",
         "arcana8"
       ],
-      "hiddenitemIds": [
-        "dominus_"
-      ],
+      "hiddenitemIds": [],
       "special": true,
       "dlc5": true,
       "surname": "",
@@ -3520,7 +3518,6 @@ window.vs = {
         "vento",
         "whip_"
       ],
-      "special": true,
       "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
       "rarity": 1,
       "tips": ""
