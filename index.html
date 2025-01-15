@@ -236,7 +236,7 @@
               </svg>
             </div>
             <transition-group tag="div" class="objects">
-              <div 
+              <div
                 v-for="weapon in filteredWeapons"
                 :key="weapon.id"
                 :data-id="weapon.id"
@@ -1540,8 +1540,6 @@
                     unselectId('minihorse')
                   }
                 }
-              } else if (item.id === 'whip_' && selectedCharacter.value.id === 'minnah') {
-                selectedIds.delete('whip_')
               }
             }
           }
@@ -1616,7 +1614,7 @@
 
           function reset(event) {
             selectedIds.clear()
-            highlightElement(event.target, '#3c3')
+            highlightElement(event.target, 'var(--boost-color)')
           }
 
           function saveImage(event) {
@@ -1627,7 +1625,7 @@
                 link.download = `vs-build_${new Date().toISOString().substring(0, 19).replaceAll(':', '-')}.png`
                 link.href = dataUrl
                 link.click()
-                highlightElement(event.target, '#3c3')
+                highlightElement(event.target, 'var(--boost-color)')
               })
               .catch(() => highlightElement(event.target, '#c33'))
           }
@@ -1636,7 +1634,7 @@
             domtoimage.toBlob(document.querySelector('.slots')).then((dataBlob) => {
               navigator.clipboard
                 .write([new ClipboardItem({ 'image/png': dataBlob })])
-                .then(() => highlightElement(event.target, '#3c3'))
+                .then(() => highlightElement(event.target, 'var(--boost-color)'))
                 .catch(() => highlightElement(event.target, '#c33'))
             })
           }
@@ -1645,7 +1643,7 @@
             const text = location.href
             navigator.clipboard
               .writeText(text)
-              .then(() => highlightElement(event.target, '#3c3'))
+              .then(() => highlightElement(event.target, 'var(--boost-color)'))
               .catch(() => highlightElement(event.target, '#c33'))
           }
 
@@ -1669,7 +1667,7 @@
             }
             navigator.clipboard
               .writeText(text)
-              .then(() => highlightElement(event.target, '#3c3'))
+              .then(() => highlightElement(event.target, 'var(--boost-color)'))
               .catch(() => highlightElement(event.target, '#c33'))
           }
 
@@ -1684,7 +1682,7 @@
             return result || 'O'
           }
 
-          function highlightElement(target, color = '#3c3') {
+          function highlightElement(target, color = 'var(--boost-color)') {
             if (target) {
               target.style.color = color
               setTimeout(() => {
