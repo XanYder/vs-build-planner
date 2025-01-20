@@ -1015,6 +1015,9 @@ window.vs = {
       "itemIds": [
         "morningstar",
       ],
+      "hiddenitemIds": [
+        "savrogweapon",
+      ],
       "special": true,
       "dlc5": true,
       "surname": "Belmont",
@@ -1148,7 +1151,8 @@ window.vs = {
       "description": "Gains an extra Arcana VII - Iron Blue Will at level 10. Obtains a Mirror of Truth every 5 levels.",
       "itemIds": [
         "coatofarms",
-        "morningstar"
+        "morningstar",
+        "arcana7"
       ],
       "special": true,
       "dlc5": true,
@@ -1859,7 +1863,7 @@ window.vs = {
       "description": "Charge ability affected by Curse: triggers all equipped Dominus weapons. Immune to health drain. Can fly.",
       "itemIds": [],
       "hiddenitemIds": [
-        "dominus1"
+        "dominus2"
       ],
       "special": true,
       "dlc5": true,
