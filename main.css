@@ -592,3 +592,48 @@ footer {
     background-color: #f33;
   }
 }
+
+/* Base items indicator */
+.base-items-indicator {
+  position: absolute;
+  top: var(--space-xxs);
+  right: var(--space-xxs);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.base-item-icon {
+  width: 1.2em;
+  height: 1.2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-xxxs);
+  margin: 0.05em;
+}
+
+/* Shopping list styles */
+.shopping-list-section {
+  margin-bottom: var(--space-m);
+}
+
+.shopping-category {
+  margin-bottom: 1.5em;
+}
+
+.shopping-category h3 {
+  margin: var(--space-s) 0;
+  font-size: 1.1em;
+  color: var(--text-hover-color);
+  text-align: left;
+  font-weight: bold;
+}
+
+.shopping-item {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.shopping-item.selected {
+  border-color: var(--selected-color);
+}

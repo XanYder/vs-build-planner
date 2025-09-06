@@ -67,6 +67,9 @@
             <div class="flex-col-row weapons">
               <div v-for="(weapon, $index) in evolvedWeapons" :data-id="weapon.id" class="slot weapon" :title="weapon.title" @click="deleteItem(weapon, evolvedWeapons[$index+1])" @mouseenter="onMouseEnter(weapon)" @mouseleave="onMouseLeave()">
                 <div class="icon" :class="`icon-${weapon.id}`"></div>
+                <div v-if="config.baseItems && weapon.itemIds && weapon.itemIds.length >= 2" class="base-items-indicator">
+                  <div v-for="itemId in weapon.itemIds" class="base-item-icon" :class="`icon-${itemId}`" :title="itemsById[itemId]?.name"></div>
+                </div>
               </div>
               <div v-for="i in (evolvedWeapons.length < 7 ? 6 - evolvedWeapons.length : 0)" class="slot weapon">
                 <small v-if="itemsById.arcana20.selected && (i > extraOpenWeaponSlots)" class="locked">❌</small>
@@ -129,11 +132,39 @@
           <span class="button" @click="config.dlc4 = !config.dlc4">DLC 4: <span :class="(config.dlc4 ? 'enabled' : 'disabled')">{{config.dlc4 ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.dlc5 = !config.dlc5">DLC 5: <span :class="(config.dlc5 ? 'enabled' : 'disabled')">{{config.dlc5 ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.combinations = !config.combinations">COMBINATIONS: <span :class="(config.combinations ? 'enabled' : 'disabled')">{{config.combinations ? 'ON' : 'OFF'}}</span></span>
+          <span class="button" @click="config.baseItems = !config.baseItems">BASE ITEMS: <span :class="(config.baseItems ? 'enabled' : 'disabled')">{{config.baseItems ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.impacts = !config.impacts">IMPACTS: <span :class="(config.impacts ? 'enabled' : 'disabled')">{{config.impacts ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.titles = !config.titles">TITLES: <span :class="(config.titles ? 'enabled' : 'disabled')">{{config.titles ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.pixels = !config.pixels">PIXELS: <span :class="(config.pixels ? 'enabled' : 'disabled')">{{config.pixels ? 'ON' : 'OFF'}}</span></span>
           <span class="button" @click="config.size -= 0.1">SIZE <span class="modifier">-</span></span>
           <span class="button" style="margin-left: 0" @click="config.size += 0.1">SIZE <span class="modifier">+</span></span>
+        </div>
+
+        <!-- Shopping List -->
+        <div v-if="requiredBaseItems.total > 0" class="shopping-list-section">
+          <h2 @click="collapsedSections.shoppingList = !collapsedSections.shoppingList"><small :style="{transform: collapsedSections.shoppingList ? 'none' : 'rotate(90deg)'}">►</small> Base Items Needed ({{requiredBaseItems.total}})</h2>
+          <Transition name="slidedown">
+            <section v-if="!collapsedSections.shoppingList" class="shopping-list">
+              <div v-if="requiredBaseItems.weapons.length > 0" class="shopping-category">
+                <h3>Weapons ({{requiredBaseItems.weapons.length}})</h3>
+                <div class="objects">
+                  <div v-for="weapon in requiredBaseItems.weapons" :key="weapon.id" :data-id="weapon.id" class="object weapon shopping-item" :class="{selected: weapon.selected, special: weapon.special, dlc1: weapon.dlc1, dlc2: weapon.dlc2, dlc3: weapon.dlc3, dlc4: weapon.dlc4, dlc5: weapon.dlc5}" :title="weapon.title" @click="toggleItem(weapon)" @mouseenter="onMouseEnter(weapon)" @mouseleave="onMouseLeave(weapon)">
+                    <div class="icon" :class="`icon-${weapon.id}`"></div>
+                    <div v-if="config.titles" class="title">{{weapon.id}}</div>
+                  </div>
+                </div>
+              </div>
+              <div v-if="requiredBaseItems.passives.length > 0" class="shopping-category">
+                <h3>Passives ({{requiredBaseItems.passives.length}})</h3>
+                <div class="objects">
+                  <div v-for="passive in requiredBaseItems.passives" :key="passive.id" :data-id="passive.id" class="object passive shopping-item" :class="{selected: passive.selected, special: passive.special, dlc1: passive.dlc1, dlc2: passive.dlc2, dlc3: passive.dlc3, dlc4: passive.dlc4, dlc5: passive.dlc5}" :title="passive.title" @click="toggleItem(passive)" @mouseenter="onMouseEnter(passive)" @mouseleave="onMouseLeave(passive)">
+                    <div class="icon" :class="`icon-${passive.id}`"></div>
+                    <div v-if="config.titles" class="title">{{passive.id}}</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </Transition>
         </div>
 
         <!-- Characters -->
@@ -1287,6 +1318,85 @@
             return counterparts
           })
 
+          // Shopping list: Required base items for current build
+          const requiredBaseItems = computed(() => {
+            const baseItems = new Set()
+            const itemGroups = new Map() // Track which evolution each item belongs to
+            const evolutionPriority = new Map() // Track priority order of evolutions
+            
+            // Recursive function to extract base items from an evolution
+            const extractBaseItems = (itemId, parentEvolutionName, parentPriority) => {
+              const item = itemsById[itemId]
+              if (!item) return
+              
+              if (item.type === 'evolution' && item.itemIds && item.itemIds.length >= 2) {
+                // Recursively process evolution's base items
+                for (const subItemId of item.itemIds) {
+                  extractBaseItems(subItemId, parentEvolutionName, parentPriority)
+                }
+              } else {
+                // This is a base item (weapon or passive)
+                baseItems.add(item)
+                // Track which evolution this item belongs to for grouping
+                if (!itemGroups.has(item.id)) {
+                  itemGroups.set(item.id, [])
+                }
+                itemGroups.get(item.id).push({ name: parentEvolutionName, priority: parentPriority })
+              }
+            }
+            
+            // Collect base items from evolved weapons and group them by evolution with priority
+            evolvedWeapons.value.forEach((weapon, index) => {
+              if (weapon.type === 'evolution' && weapon.itemIds && weapon.itemIds.length >= 2) {
+                // Set evolution priority based on position in evolvedWeapons array
+                evolutionPriority.set(weapon.name, index)
+                
+                // Recursively extract base items from this evolution
+                for (const itemId of weapon.itemIds) {
+                  extractBaseItems(itemId, weapon.name, index)
+                }
+              }
+            })
+            
+            // Custom sorting: priority-based grouping with evolution grouping
+            const sortByPriorityAndGroup = (items) => {
+              return items.sort((a, b) => {
+                const aEvolutions = itemGroups.get(a.id) || []
+                const bEvolutions = itemGroups.get(b.id) || []
+                
+                // Get the highest priority (lowest index) evolution for each item
+                const aPriorityEvolution = aEvolutions.reduce((highest, evo) => 
+                  highest === null || evo.priority < highest.priority ? evo : highest, null)
+                const bPriorityEvolution = bEvolutions.reduce((highest, evo) => 
+                  highest === null || evo.priority < highest.priority ? evo : highest, null)
+                
+                // Sort by evolution priority first
+                if (aPriorityEvolution && bPriorityEvolution) {
+                  if (aPriorityEvolution.priority !== bPriorityEvolution.priority) {
+                    return aPriorityEvolution.priority - bPriorityEvolution.priority
+                  }
+                  
+                  // If same evolution priority, check if they belong to the same evolution
+                  const sharedEvolution = aEvolutions.find(aEvo => 
+                    bEvolutions.some(bEvo => bEvo.name === aEvo.name))
+                  if (sharedEvolution) {
+                    // Within same evolution group, sort using natural (numeric) order by ID
+                    return a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: 'base' })
+                  }
+                }
+                
+                // Fallback to natural alphabetical by item ID
+                return a.id.localeCompare(b.id, undefined, { numeric: true, sensitivity: 'base' })
+              })
+            }
+            
+            // Organize into categories with priority-based sorting
+            const weapons = sortByPriorityAndGroup(Array.from(baseItems).filter(item => item.type === 'weapon'))
+            const passives = sortByPriorityAndGroup(Array.from(baseItems).filter(item => item.type === 'passive'))
+            
+            return { weapons, passives, total: weapons.length + passives.length }
+          })
+
           // How many extra open slots do we need for evolutions/unions if arcana 20 is selected?
           const extraOpenWeaponSlots = computed(() => {
             const evolvedCount = evolvedWeapons.value.length
@@ -1692,7 +1802,7 @@
           }
 
           function useConfig(storageKey = 'vs-build') {
-            const defaultConfig = { sorting: false, impacts: true, pixels: true, titles: true, dlc1: true, dlc2: true, dlc3: true, dlc4: true, dlc5: true, combinations: true, size: 1, version: 2 }
+            const defaultConfig = { sorting: false, impacts: true, pixels: true, titles: true, dlc1: true, dlc2: true, dlc3: true, dlc4: true, dlc5: true, combinations: true, baseItems: false, size: 1, version: 2 }
 
             const userConfig = loadUserConfig()
 
@@ -1803,6 +1913,7 @@
             filteredArcanas,
             filteredStages,
             evolvedWeapons,
+            requiredBaseItems,
             counterpartsWeapons,
             extraOpenWeaponSlots,
             maxArcanas,
